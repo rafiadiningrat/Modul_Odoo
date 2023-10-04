@@ -14,3 +14,15 @@ class BusSchedule(models.Model):
     ], string='Payment Type')
 
     bus_id = fields.Many2one('res.bus', string='Bus')
+    route_id = fields.Many2one('bus.route', string='Route')
+    baggage_line_ids = fields.One2many('baggage.baggage', 'schedule_id', string='Baggage_line')
+
+
+    class BaggageBaggage(models.Model):
+        _name = 'baggage.baggage'
+        _description = 'Baggage'
+
+        name = fields.Char('')
+        weight = fields.Float('weight (kg)') 
+
+        schedule_id = fields.Many2one('bus.schedule', string='Schedule') 
