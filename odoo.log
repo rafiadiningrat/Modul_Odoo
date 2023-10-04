@@ -1,0 +1,1337 @@
+2023-10-02 10:52:52,717 2464 INFO ? odoo: Odoo version 16.0-20231001 
+2023-10-02 10:52:52,717 2464 INFO ? odoo: Using configuration file at C:\Program Files\server\odoo.conf 
+2023-10-02 10:52:52,718 2464 INFO ? odoo: addons paths: ['C:\\Program Files\\server\\odoo\\addons', 'c:\\program files\\sessions\\addons\\16.0', 'c:\\program files\\server\\odoo\\addons'] 
+2023-10-02 10:52:52,718 2464 INFO ? odoo: database: openpg@localhost:5432 
+2023-10-02 10:52:59,031 2464 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at wkhtmltopdf.exe 
+2023-10-02 10:53:02,764 2464 WARNING ? py.warnings: C:\Program Files\python\lib\site-packages\num2words\lang_AR.py:191: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Program Files\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-02 10:53:02,766 2464 WARNING ? py.warnings: C:\Program Files\python\lib\site-packages\num2words\lang_AR.py:195: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Program Files\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-02 10:53:02,767 2464 WARNING ? py.warnings: C:\Program Files\python\lib\site-packages\num2words\lang_AR.py:229: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Program Files\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-02 10:53:02,767 2464 WARNING ? py.warnings: C:\Program Files\python\lib\site-packages\num2words\lang_AR.py:231: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Program Files\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-02 10:53:02,767 2464 WARNING ? py.warnings: C:\Program Files\python\lib\site-packages\num2words\lang_AR.py:239: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Program Files\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-02 10:53:02,767 2464 WARNING ? py.warnings: C:\Program Files\python\lib\site-packages\num2words\lang_AR.py:253: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Program Files\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-02 10:53:02,767 2464 WARNING ? py.warnings: C:\Program Files\python\lib\site-packages\num2words\lang_AR.py:291: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  File "C:\Program Files\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-02 10:53:02,776 2464 WARNING ? py.warnings: C:\Program Files\python\lib\site-packages\num2words\lang_AR.py:302: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  File "C:\Program Files\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-02 10:53:02,778 2464 WARNING ? py.warnings: C:\Program Files\python\lib\site-packages\num2words\lang_AR.py:305: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  File "C:\Program Files\server\odoo-bin", line 8, in <module>
+    odoo.cli.main()
+  File "C:\Program Files\server\odoo\cli\command.py", line 66, in main
+    o.run(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 180, in run
+    main(args)
+  File "C:\Program Files\server\odoo\cli\server.py", line 173, in main
+    rc = odoo.service.server.start(preload=preload, stop=stop)
+  File "C:\Program Files\server\odoo\service\server.py", line 1345, in start
+    load_server_wide_modules()
+  File "C:\Program Files\server\odoo\service\server.py", line 1248, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "C:\Program Files\server\odoo\modules\module.py", line 468, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "C:\Program Files\server\odoo\addons\web\__init__.py", line 4, in <module>
+    from . import controllers
+  File "C:\Program Files\server\odoo\addons\web\controllers\__init__.py", line 5, in <module>
+    from . import database
+  File "C:\Program Files\server\odoo\addons\web\controllers\database.py", line 19, in <module>
+    from odoo.addons.base.models.ir_qweb import render as qweb_render
+  File "C:\Program Files\server\odoo\addons\base\__init__.py", line 5, in <module>
+    from . import models
+  File "C:\Program Files\server\odoo\addons\base\models\__init__.py", line 43, in <module>
+    from . import res_currency
+  File "C:\Program Files\server\odoo\addons\base\models\res_currency.py", line 16, in <module>
+    from num2words import num2words
+  File "C:\Program Files\python\lib\site-packages\num2words\__init__.py", line 20, in <module>
+    from . import lang_AR
+  File "C:\Program Files\python\lib\warnings.py", line 109, in _showwarnmsg
+    sw(msg.message, msg.category, msg.filename, msg.lineno,
+  File "C:\Program Files\server\odoo\netsvc.py", line 287, in showwarning_with_traceback
+    for frame in traceback.extract_stack():
+ 
+2023-10-02 10:53:04,627 2464 INFO ? odoo.service.server: Initiating shutdown 
+2023-10-02 10:53:04,627 2464 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-10-02 15:39:14,071 13232 INFO ? odoo: Odoo version 16.0-20231001 
+2023-10-02 15:39:14,071 13232 INFO ? odoo: Using configuration file at C:\Program Files\server\odoo.conf 
+2023-10-02 15:39:14,071 13232 INFO ? odoo: addons paths: ['C:\\Program Files\\server\\odoo\\addons', 'c:\\program files\\sessions\\addons\\16.0', 'c:\\program files\\server\\odoo\\addons'] 
+2023-10-02 15:39:14,071 13232 INFO ? odoo: database: openpg@localhost:5432 
+2023-10-02 15:39:14,508 13232 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\thirdparty\wkhtmltopdf.exe 
+2023-10-02 15:39:15,276 13232 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-U78KA7P:8069 
+2023-10-02 15:39:15,460 13232 INFO ? odoo.sql_db: Connection to the database failed 
+2023-10-02 15:39:15,802 13232 INFO ? odoo.sql_db: Connection to the database failed 
+2023-10-02 15:39:17,151 13232 INFO ? odoo.sql_db: Connection to the database failed 
+2023-10-02 15:39:17,206 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:39:17] "GET / HTTP/1.1" 303 - 0 0.000 0.164
+2023-10-02 15:39:17,319 13232 INFO ? odoo.sql_db: Connection to the database failed 
+2023-10-02 15:39:17,501 13232 INFO ? odoo.sql_db: Connection to the database failed 
+2023-10-02 15:39:17,504 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:39:17] "GET /web HTTP/1.1" 303 - 0 0.000 0.289
+2023-10-02 15:39:17,604 13232 INFO ? odoo.sql_db: Connection to the database failed 
+2023-10-02 15:39:27,734 13232 INFO ? odoo.sql_db: Connection to the database failed 
+2023-10-02 15:39:28,021 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:39:28] "GET /web/database/selector HTTP/1.1" 200 - 0 0.000 10.510
+2023-10-02 15:47:24,144 13232 INFO None odoo.service.db: Create database `db_odoo`. 
+2023-10-02 15:47:28,948 13232 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2023-10-02 15:47:28,948 13232 INFO db_odoo odoo.modules.loading: Loading module base (1/1) 
+2023-10-02 15:47:29,082 13232 INFO db_odoo odoo.modules.registry: module base: creating or updating database tables 
+2023-10-02 15:47:30,426 13232 INFO db_odoo odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2023-10-02 15:47:30,427 13232 INFO db_odoo odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2023-10-02 15:47:30,428 13232 INFO db_odoo odoo.models: Prepare computation of ir.module.module.views_by_module 
+2023-10-02 15:47:31,173 13232 INFO db_odoo odoo.models: Prepare computation of res.partner.user_id 
+2023-10-02 15:47:31,174 13232 INFO db_odoo odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2023-10-02 15:47:31,176 13232 INFO db_odoo odoo.models: Prepare computation of res.partner.display_name 
+2023-10-02 15:47:31,181 13232 INFO db_odoo odoo.models: Prepare computation of res.partner.company_registry 
+2023-10-02 15:47:31,181 13232 INFO db_odoo odoo.models: Prepare computation of res.partner.commercial_company_name 
+2023-10-02 15:47:31,181 13232 INFO db_odoo odoo.models: Prepare computation of res.partner.partner_share 
+2023-10-02 15:47:31,512 13232 INFO db_odoo odoo.models: Prepare computation of res.currency.decimal_places 
+2023-10-02 15:47:31,688 13232 INFO db_odoo odoo.models: Prepare computation of res.company.logo_web 
+2023-10-02 15:47:31,921 13232 INFO db_odoo odoo.models: Prepare computation of res.users.signature 
+2023-10-02 15:47:31,922 13232 INFO db_odoo odoo.models: Prepare computation of res.users.share 
+2023-10-02 15:47:43,167 13232 INFO db_odoo odoo.modules.loading: loading base/data/res_bank.xml 
+2023-10-02 15:47:43,498 13232 INFO db_odoo odoo.modules.loading: loading base/data/res.lang.csv 
+2023-10-02 15:47:44,042 13232 INFO db_odoo odoo.modules.loading: loading base/data/res_lang_data.xml 
+2023-10-02 15:47:44,281 13232 INFO db_odoo odoo.modules.loading: loading base/data/res_partner_data.xml 
+2023-10-02 15:47:44,679 13232 INFO db_odoo odoo.modules.loading: loading base/data/res_currency_data.xml 
+2023-10-02 15:47:47,039 13232 INFO db_odoo odoo.modules.loading: loading base/data/res_company_data.xml 
+2023-10-02 15:47:47,149 13232 INFO db_odoo odoo.modules.loading: loading base/data/res_users_data.xml 
+2023-10-02 15:47:50,557 13232 INFO db_odoo odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2023-10-02 15:47:50,596 13232 INFO db_odoo odoo.modules.loading: loading base/data/res_country_data.xml 
+2023-10-02 15:47:51,950 13232 INFO db_odoo odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2023-10-02 15:47:52,018 13232 INFO db_odoo odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2023-10-02 15:47:52,049 13232 INFO db_odoo odoo.modules.loading: loading base/security/base_groups.xml 
+2023-10-02 15:47:52,674 13232 INFO db_odoo odoo.modules.loading: loading base/security/base_security.xml 
+2023-10-02 15:47:52,954 13232 INFO db_odoo odoo.modules.loading: loading base/views/base_menus.xml 
+2023-10-02 15:47:53,287 13232 INFO db_odoo odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2023-10-02 15:47:53,418 13232 INFO db_odoo odoo.modules.loading: loading base/views/res_config_views.xml 
+2023-10-02 15:47:53,458 13232 INFO db_odoo odoo.modules.loading: loading base/data/res.country.state.csv 
+2023-10-02 15:47:55,455 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2023-10-02 15:47:55,768 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2023-10-02 15:47:55,835 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2023-10-02 15:47:55,893 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2023-10-02 15:47:56,001 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2023-10-02 15:47:56,053 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2023-10-02 15:47:56,132 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2023-10-02 15:47:56,224 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_model_views.xml 
+2023-10-02 15:47:56,696 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2023-10-02 15:47:56,767 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2023-10-02 15:47:56,850 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2023-10-02 15:47:56,919 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2023-10-02 15:47:56,986 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2023-10-02 15:47:57,160 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_default_views.xml 
+2023-10-02 15:47:57,243 13232 INFO db_odoo odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2023-10-02 15:47:57,287 13232 INFO db_odoo odoo.modules.loading: loading base/report/ir_model_report.xml 
+2023-10-02 15:47:57,312 13232 INFO db_odoo odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2023-10-02 15:47:57,353 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2023-10-02 15:47:57,434 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2023-10-02 15:47:57,488 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_module_views.xml 
+2023-10-02 15:47:57,696 13232 INFO db_odoo odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2023-10-02 15:47:57,866 13232 INFO db_odoo odoo.modules.loading: loading base/data/ir_module_module.xml 
+2023-10-02 15:47:58,042 13232 INFO db_odoo odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2023-10-02 15:47:58,066 13232 INFO db_odoo odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2023-10-02 15:47:58,095 13232 INFO db_odoo odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2023-10-02 15:47:58,151 13232 INFO db_odoo odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2023-10-02 15:47:58,194 13232 INFO db_odoo odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2023-10-02 15:47:58,251 13232 INFO db_odoo odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2023-10-02 15:47:58,321 13232 INFO db_odoo odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2023-10-02 15:47:58,364 13232 INFO db_odoo odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2023-10-02 15:47:58,433 13232 INFO db_odoo odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2023-10-02 15:47:58,492 13232 INFO db_odoo odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2023-10-02 15:47:58,510 13232 INFO db_odoo odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2023-10-02 15:47:58,566 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2023-10-02 15:47:58,645 13232 INFO db_odoo odoo.modules.loading: loading base/views/res_company_views.xml 
+2023-10-02 15:47:58,715 13232 INFO db_odoo odoo.modules.loading: loading base/views/res_lang_views.xml 
+2023-10-02 15:47:58,782 13232 INFO db_odoo odoo.modules.loading: loading base/views/res_partner_views.xml 
+2023-10-02 15:47:59,263 13232 INFO db_odoo odoo.modules.loading: loading base/views/res_bank_views.xml 
+2023-10-02 15:47:59,416 13232 INFO db_odoo odoo.modules.loading: loading base/views/res_country_views.xml 
+2023-10-02 15:47:59,593 13232 INFO db_odoo odoo.modules.loading: loading base/views/res_currency_views.xml 
+2023-10-02 15:47:59,816 13232 INFO db_odoo odoo.modules.loading: loading base/views/res_users_views.xml 
+2023-10-02 15:48:00,365 13232 INFO db_odoo odoo.modules.loading: loading base/views/ir_property_views.xml 
+2023-10-02 15:48:00,458 13232 INFO db_odoo odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2023-10-02 15:48:00,504 13232 INFO db_odoo odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2023-10-02 15:48:00,621 13232 INFO db_odoo odoo.modules.loading: loading base/views/onboarding_views.xml 
+2023-10-02 15:48:00,712 13232 INFO db_odoo odoo.modules.loading: loading base/security/ir.model.access.csv 
+2023-10-02 15:48:01,194 13232 INFO db_odoo odoo.modules.loading: Module base loaded in 32.25s, 7840 queries (+7840 other) 
+2023-10-02 15:48:01,195 13232 INFO db_odoo odoo.modules.loading: 1 modules loaded in 32.25s, 7840 queries (+7840 extra) 
+2023-10-02 15:48:01,316 13232 INFO db_odoo odoo.modules.loading: updating modules list 
+2023-10-02 15:48:01,317 13232 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2023-10-02 15:48:02,645 13232 INFO db_odoo odoo.modules.loading: loading 8 modules... 
+2023-10-02 15:48:02,645 13232 INFO db_odoo odoo.modules.loading: Loading module web (2/8) 
+2023-10-02 15:48:02,688 13232 INFO db_odoo odoo.modules.registry: module web: creating or updating database tables 
+2023-10-02 15:48:03,916 13232 INFO db_odoo odoo.modules.loading: loading web/security/ir.model.access.csv 
+2023-10-02 15:48:03,953 13232 INFO db_odoo odoo.modules.loading: loading web/views/webclient_templates.xml 
+2023-10-02 15:48:04,212 13232 INFO db_odoo odoo.modules.loading: loading web/views/report_templates.xml 
+2023-10-02 15:48:04,473 13232 INFO db_odoo odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2023-10-02 15:48:04,517 13232 INFO db_odoo odoo.modules.loading: loading web/views/speedscope_template.xml 
+2023-10-02 15:48:04,552 13232 INFO db_odoo odoo.modules.loading: loading web/views/lazy_assets.xml 
+2023-10-02 15:48:04,581 13232 INFO db_odoo odoo.modules.loading: loading web/views/neutralize_views.xml 
+2023-10-02 15:48:04,611 13232 INFO db_odoo odoo.modules.loading: loading web/data/ir_attachment.xml 
+2023-10-02 15:48:04,636 13232 INFO db_odoo odoo.modules.loading: loading web/data/report_layout.xml 
+2023-10-02 15:48:04,731 13232 INFO db_odoo odoo.modules.loading: Module web loaded in 2.09s, 882 queries (+882 other) 
+2023-10-02 15:48:04,732 13232 INFO db_odoo odoo.modules.loading: Loading module auth_totp (3/8) 
+2023-10-02 15:48:05,080 13232 INFO db_odoo odoo.modules.registry: module auth_totp: creating or updating database tables 
+2023-10-02 15:48:05,249 13232 INFO db_odoo odoo.modules.loading: loading auth_totp/security/security.xml 
+2023-10-02 15:48:05,346 13232 INFO db_odoo odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2023-10-02 15:48:05,394 13232 INFO db_odoo odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2023-10-02 15:48:05,434 13232 INFO db_odoo odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2023-10-02 15:48:05,518 13232 INFO db_odoo odoo.modules.loading: loading auth_totp/views/templates.xml 
+2023-10-02 15:48:05,547 13232 INFO db_odoo odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2023-10-02 15:48:05,613 13232 INFO db_odoo odoo.modules.loading: Module auth_totp loaded in 0.88s, 174 queries (+174 other) 
+2023-10-02 15:48:05,613 13232 INFO db_odoo odoo.modules.loading: Loading module base_import (4/8) 
+2023-10-02 15:48:05,818 13232 INFO db_odoo odoo.modules.registry: module base_import: creating or updating database tables 
+2023-10-02 15:48:07,871 13232 INFO db_odoo odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2023-10-02 15:48:07,949 13232 INFO db_odoo odoo.modules.loading: Module base_import loaded in 2.34s, 891 queries (+891 other) 
+2023-10-02 15:48:07,949 13232 INFO db_odoo odoo.modules.loading: Loading module bus (5/8) 
+2023-10-02 15:48:08,240 13232 INFO db_odoo odoo.modules.registry: module bus: creating or updating database tables 
+2023-10-02 15:48:08,433 13232 INFO db_odoo odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2023-10-02 15:48:08,485 13232 INFO db_odoo odoo.modules.loading: Module bus loaded in 0.54s, 103 queries (+103 other) 
+2023-10-02 15:48:08,486 13232 INFO db_odoo odoo.modules.loading: Loading module web_kanban_gauge (6/8) 
+2023-10-02 15:48:08,634 13232 INFO db_odoo odoo.modules.loading: Module web_kanban_gauge loaded in 0.15s, 12 queries (+12 other) 
+2023-10-02 15:48:08,635 13232 INFO db_odoo odoo.modules.loading: Loading module web_tour (7/8) 
+2023-10-02 15:48:08,799 13232 INFO db_odoo odoo.modules.registry: module web_tour: creating or updating database tables 
+2023-10-02 15:48:08,901 13232 INFO db_odoo odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2023-10-02 15:48:08,939 13232 INFO db_odoo odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2023-10-02 15:48:08,968 13232 INFO db_odoo odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2023-10-02 15:48:09,070 13232 INFO db_odoo odoo.modules.loading: Module web_tour loaded in 0.43s, 101 queries (+101 other) 
+2023-10-02 15:48:09,071 13232 INFO db_odoo odoo.modules.loading: Loading module web_editor (8/8) 
+2023-10-02 15:48:09,824 13232 INFO db_odoo odoo.modules.registry: module web_editor: creating or updating database tables 
+2023-10-02 15:48:11,200 13232 INFO db_odoo odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2023-10-02 15:48:11,238 13232 INFO db_odoo odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2023-10-02 15:48:11,261 13232 INFO db_odoo odoo.modules.loading: loading web_editor/views/editor.xml 
+2023-10-02 15:48:11,335 13232 INFO db_odoo odoo.modules.loading: loading web_editor/views/snippets.xml 
+2023-10-02 15:48:11,449 13232 INFO db_odoo odoo.modules.loading: Module web_editor loaded in 2.38s, 821 queries (+821 other) 
+2023-10-02 15:48:11,450 13232 INFO db_odoo odoo.modules.loading: 8 modules loaded in 8.81s, 2984 queries (+2984 extra) 
+2023-10-02 15:48:11,924 13232 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2023-10-02 15:48:11,927 13232 INFO db_odoo odoo.modules.registry: Registry loaded in 43.032s 
+2023-10-02 15:48:13,528 13232 INFO db_odoo odoo.addons.base.models.res_users: Login successful for db:db_odoo login:rafi from 127.0.0.1 
+2023-10-02 15:48:13,550 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:48:13] "POST /web/database/create HTTP/1.1" 303 - 15779 27.160 22.779
+2023-10-02 15:48:13,895 13232 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-10-02 15:48:14,100 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:48:14] "GET /web HTTP/1.1" 303 - 6 0.006 0.212
+2023-10-02 15:48:53,571 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:48:53] "GET /web/login HTTP/1.1" 200 - 68 0.099 39.321
+2023-10-02 15:48:54,783 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:48:54] "GET /web/assets/15-eb78322/web.assets_frontend.min.css HTTP/1.1" 200 - 6 0.015 0.745
+2023-10-02 15:48:54,803 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:48:54] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.021 0.760
+2023-10-02 15:48:54,876 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:48:54] "GET /web/assets/16-9fb22ff/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 5 0.042 0.810
+2023-10-02 15:48:56,774 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:48:56] "GET /web/assets/17-4fa311c/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 5 0.006 1.052
+2023-10-02 15:48:57,102 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:48:57] "GET /web/webclient/translations/1696261737063 HTTP/1.1" 200 - 3 0.006 0.028
+2023-10-02 15:48:57,438 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:48:57] "GET /web/webclient/translations/1696261737112 HTTP/1.1" 200 - 3 0.008 0.004
+2023-10-02 15:49:10,946 13232 INFO db_odoo odoo.addons.base.models.res_users: Login successful for db:db_odoo login:rafi from 127.0.0.1 
+2023-10-02 15:49:11,031 13232 INFO db_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-10-02 15:49:11,035 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:49:11] "POST /web/login HTTP/1.1" 303 - 42 0.148 0.860
+2023-10-02 15:50:01,412 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:01] "GET /web HTTP/1.1" 200 - 108 0.240 49.811
+2023-10-02 15:50:02,179 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:02] "GET /web/assets/19-0bc6aff/web.assets_backend.min.css HTTP/1.1" 200 - 4 0.011 0.362
+2023-10-02 15:50:02,183 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:02] "GET /web/assets/22-0a9a498/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.000 0.370
+2023-10-02 15:50:02,190 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:02] "GET /web/webclient/load_menus/3b5665afdb76f0b35edca6c8b7486724a31b5c9e8fd5a2aa71a636993cb1dd9b HTTP/1.1" 200 - 2 0.010 0.363
+2023-10-02 15:50:02,191 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:02] "GET /web/assets/18-dc71afd/web.assets_common.min.css HTTP/1.1" 200 - 4 0.011 0.373
+2023-10-02 15:50:02,305 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:02] "GET /web/assets/21-0bc6aff/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.003 0.490
+2023-10-02 15:50:02,646 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:02] "GET /web/webclient/translations/65607f58d5469d51a5b051eb66c57db2c3d405a5?lang=en_US HTTP/1.1" 200 - 3 0.010 0.013
+2023-10-02 15:50:02,973 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:02] "GET /web/assets/20-dc71afd/web.assets_common.min.js HTTP/1.1" 200 - 4 0.020 1.144
+2023-10-02 15:50:04,222 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:04] "GET /web/webclient/locale/en_US HTTP/1.1" 200 - 1 0.001 0.007
+2023-10-02 15:50:04,424 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:04] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 200 - 9 0.012 0.155
+2023-10-02 15:50:04,885 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:04] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 15 0.059 0.016
+2023-10-02 15:50:05,137 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:05] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.018
+2023-10-02 15:50:05,318 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:05] "GET /websocket HTTP/1.1" 101 - 1 0.004 0.034
+2023-10-02 15:50:05,336 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:05] "POST /web/action/load HTTP/1.1" 200 - 11 0.154 0.031
+2023-10-02 15:50:05,372 13232 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-10-02 15:50:05,994 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:05] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.055 0.161
+2023-10-02 15:50:06,160 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:06] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 43 0.135 0.183
+2023-10-02 15:50:06,547 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:06] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.015 0.005
+2023-10-02 15:50:06,587 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:06] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.040 0.040
+2023-10-02 15:50:07,044 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:07] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.018
+2023-10-02 15:50:07,363 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:07] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.024
+2023-10-02 15:50:07,369 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:07] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.024
+2023-10-02 15:50:07,371 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:07] "GET /base/static/img/icons/knowledge.png HTTP/1.1" 200 - 0 0.000 0.028
+2023-10-02 15:50:07,395 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:07] "GET /project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.044
+2023-10-02 15:50:07,398 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:07] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.037
+2023-10-02 15:50:07,405 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:07] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.031
+2023-10-02 15:50:07,687 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:07] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - 0 0.000 0.010
+2023-10-02 15:50:07,728 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:07] "GET /account/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.018
+2023-10-02 15:50:07,731 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:07] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.021
+2023-10-02 15:50:07,760 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:07] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - 0 0.000 0.016
+2023-10-02 15:50:07,767 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:07] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.030
+2023-10-02 15:50:07,777 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:07] "GET /crm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.026
+2023-10-02 15:50:08,037 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.025
+2023-10-02 15:50:08,067 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - 0 0.000 0.020
+2023-10-02 15:50:08,077 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.030
+2023-10-02 15:50:08,103 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - 0 0.000 0.027
+2023-10-02 15:50:08,115 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.029
+2023-10-02 15:50:08,135 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.021
+2023-10-02 15:50:08,367 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - 0 0.000 0.007
+2023-10-02 15:50:08,387 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2023-10-02 15:50:08,403 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /data_recycle/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2023-10-02 15:50:08,434 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.017
+2023-10-02 15:50:08,442 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.017
+2023-10-02 15:50:08,447 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.005
+2023-10-02 15:50:08,717 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.020
+2023-10-02 15:50:08,717 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.020
+2023-10-02 15:50:08,737 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.020
+2023-10-02 15:50:08,747 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.005
+2023-10-02 15:50:08,774 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.017
+2023-10-02 15:50:08,778 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:08] "GET /mail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.017
+2023-10-02 15:50:09,047 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.008
+2023-10-02 15:50:09,051 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.016
+2023-10-02 15:50:09,073 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.015
+2023-10-02 15:50:09,075 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.024
+2023-10-02 15:50:09,111 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.021
+2023-10-02 15:50:09,115 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.016
+2023-10-02 15:50:09,367 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - 0 0.000 0.008
+2023-10-02 15:50:09,383 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2023-10-02 15:50:09,397 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - 0 0.000 0.015
+2023-10-02 15:50:09,418 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /survey/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.017
+2023-10-02 15:50:09,431 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - 0 0.000 0.013
+2023-10-02 15:50:09,435 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /repair/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2023-10-02 15:50:09,693 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2023-10-02 15:50:09,710 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.018
+2023-10-02 15:50:09,724 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - 0 0.000 0.012
+2023-10-02 15:50:09,741 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /note/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2023-10-02 15:50:09,757 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.014
+2023-10-02 15:50:09,757 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:09] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.010
+2023-10-02 15:50:10,025 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:10] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2023-10-02 15:50:10,040 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:10] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.019
+2023-10-02 15:50:10,047 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:10] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 200 - 0 0.000 0.013
+2023-10-02 15:50:10,064 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:10] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2023-10-02 15:50:30,993 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:30] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 5 0.014 0.009
+2023-10-02 15:50:31,030 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:31] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 37 0.045 0.017
+2023-10-02 15:50:33,918 13232 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['CRM'] to user rafi #2 via 127.0.0.1 
+2023-10-02 15:50:33,918 13232 INFO db_odoo odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2023-10-02 15:50:33,922 13232 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['CRM'] to user rafi #2 via 127.0.0.1 
+2023-10-02 15:50:34,350 13232 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2023-10-02 15:50:34,377 13232 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.03s, 0 queries (+0 extra) 
+2023-10-02 15:50:34,471 13232 INFO db_odoo odoo.modules.loading: updating modules list 
+2023-10-02 15:50:34,481 13232 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-10-02 15:50:35,659 13232 INFO db_odoo odoo.modules.loading: loading 8 modules... 
+2023-10-02 15:50:35,675 13232 INFO db_odoo odoo.modules.loading: 8 modules loaded in 0.02s, 0 queries (+0 extra) 
+2023-10-02 15:50:35,679 13232 INFO db_odoo odoo.modules.loading: loading 38 modules... 
+2023-10-02 15:50:35,679 13232 INFO db_odoo odoo.modules.loading: Loading module base_setup (5/38) 
+2023-10-02 15:50:35,944 13232 INFO db_odoo odoo.modules.registry: module base_setup: creating or updating database tables 
+2023-10-02 15:50:36,144 13232 INFO db_odoo odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2023-10-02 15:50:36,167 13232 INFO db_odoo odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2023-10-02 15:50:36,296 13232 INFO db_odoo odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2023-10-02 15:50:36,357 13232 INFO db_odoo odoo.modules.loading: Module base_setup loaded in 0.68s, 153 queries (+153 other) 
+2023-10-02 15:50:36,358 13232 INFO db_odoo odoo.modules.loading: Loading module http_routing (7/38) 
+2023-10-02 15:50:36,399 13232 INFO db_odoo odoo.modules.registry: module http_routing: creating or updating database tables 
+2023-10-02 15:50:36,415 13232 INFO db_odoo odoo.modules.loading: loading http_routing/views/http_routing_template.xml 
+2023-10-02 15:50:36,513 13232 INFO db_odoo odoo.modules.loading: loading http_routing/views/res_lang_views.xml 
+2023-10-02 15:50:36,566 13232 INFO db_odoo odoo.modules.loading: Module http_routing loaded in 0.21s, 78 queries (+78 other) 
+2023-10-02 15:50:36,566 13232 INFO db_odoo odoo.modules.loading: Loading module resource (8/38) 
+2023-10-02 15:50:36,754 13232 INFO db_odoo odoo.modules.registry: module resource: creating or updating database tables 
+2023-10-02 15:50:37,123 13232 INFO db_odoo odoo.modules.loading: loading resource/data/resource_data.xml 
+2023-10-02 15:50:37,242 13232 INFO db_odoo odoo.modules.loading: loading resource/security/ir.model.access.csv 
+2023-10-02 15:50:37,304 13232 INFO db_odoo odoo.modules.loading: loading resource/security/resource_security.xml 
+2023-10-02 15:50:37,412 13232 INFO db_odoo odoo.modules.loading: loading resource/views/resource_views.xml 
+2023-10-02 15:50:37,509 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:50:37] "GET /web/static/img/spin.svg HTTP/1.1" 200 - 0 0.000 0.017
+2023-10-02 15:50:37,871 13232 INFO db_odoo odoo.modules.loading: Module resource loaded in 1.31s, 424 queries (+424 other) 
+2023-10-02 15:50:37,871 13232 INFO db_odoo odoo.modules.loading: Loading module utm (9/38) 
+2023-10-02 15:50:38,264 13232 INFO db_odoo odoo.modules.registry: module utm: creating or updating database tables 
+2023-10-02 15:50:39,055 13232 INFO db_odoo odoo.modules.loading: loading utm/data/utm_medium_data.xml 
+2023-10-02 15:50:39,200 13232 INFO db_odoo odoo.modules.loading: loading utm/data/utm_source_data.xml 
+2023-10-02 15:50:39,364 13232 INFO db_odoo odoo.modules.loading: loading utm/data/utm_stage_data.xml 
+2023-10-02 15:50:39,418 13232 INFO db_odoo odoo.modules.loading: loading utm/data/utm_tag_data.xml 
+2023-10-02 15:50:39,465 13232 INFO db_odoo odoo.modules.loading: loading utm/views/utm_campaign_views.xml 
+2023-10-02 15:50:39,635 13232 INFO db_odoo odoo.modules.loading: loading utm/views/utm_medium_views.xml 
+2023-10-02 15:50:39,775 13232 INFO db_odoo odoo.modules.loading: loading utm/views/utm_source_views.xml 
+2023-10-02 15:50:39,866 13232 INFO db_odoo odoo.modules.loading: loading utm/views/utm_stage_views.xml 
+2023-10-02 15:50:39,971 13232 INFO db_odoo odoo.modules.loading: loading utm/views/utm_tag_views.xml 
+2023-10-02 15:50:40,029 13232 INFO db_odoo odoo.modules.loading: loading utm/views/utm_menus.xml 
+2023-10-02 15:50:40,231 13232 INFO db_odoo odoo.modules.loading: loading utm/security/ir.model.access.csv 
+2023-10-02 15:50:40,415 13232 INFO db_odoo odoo.modules.loading: Module utm loaded in 2.54s, 405 queries (+405 other) 
+2023-10-02 15:50:40,416 13232 INFO db_odoo odoo.modules.loading: Loading module iap (12/38) 
+2023-10-02 15:50:40,956 13232 INFO db_odoo odoo.modules.registry: module iap: creating or updating database tables 
+2023-10-02 15:50:41,320 13232 INFO db_odoo odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2023-10-02 15:50:41,426 13232 INFO db_odoo odoo.modules.loading: loading iap/security/ir_rule.xml 
+2023-10-02 15:50:41,494 13232 INFO db_odoo odoo.modules.loading: loading iap/views/iap_views.xml 
+2023-10-02 15:50:41,642 13232 INFO db_odoo odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2023-10-02 15:50:41,788 13232 INFO db_odoo odoo.modules.loading: Module iap loaded in 1.37s, 143 queries (+143 other) 
+2023-10-02 15:50:41,789 13232 INFO db_odoo odoo.modules.loading: Loading module mail (13/38) 
+2023-10-02 15:50:45,661 13232 INFO db_odoo odoo.modules.registry: module mail: creating or updating database tables 
+2023-10-02 15:50:47,445 13232 INFO db_odoo odoo.models: Prepare computation of ir.actions.server.partner_ids 
+2023-10-02 15:50:47,448 13232 INFO db_odoo odoo.models: Prepare computation of ir.actions.server.template_id 
+2023-10-02 15:50:47,448 13232 INFO db_odoo odoo.models: Prepare computation of ir.actions.server.activity_type_id 
+2023-10-02 15:50:47,451 13232 INFO db_odoo odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range 
+2023-10-02 15:50:47,452 13232 INFO db_odoo odoo.models: Prepare computation of ir.actions.server.activity_user_id 
+2023-10-02 15:50:47,452 13232 INFO db_odoo odoo.models: Prepare computation of ir.actions.server.mail_post_method 
+2023-10-02 15:50:47,456 13232 INFO db_odoo odoo.models: Prepare computation of ir.actions.server.activity_summary 
+2023-10-02 15:50:47,459 13232 INFO db_odoo odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range_type 
+2023-10-02 15:50:47,459 13232 INFO db_odoo odoo.models: Prepare computation of ir.actions.server.activity_user_type 
+2023-10-02 15:50:47,459 13232 INFO db_odoo odoo.models: Prepare computation of ir.actions.server.activity_user_field_name 
+2023-10-02 15:50:47,460 13232 INFO db_odoo odoo.models: Prepare computation of ir.actions.server.activity_note 
+2023-10-02 15:50:47,460 13232 INFO db_odoo odoo.models: Prepare computation of ir.actions.server.mail_post_autofollow 
+2023-10-02 15:50:47,799 13232 INFO db_odoo odoo.models: Prepare computation of res.partner.email_normalized 
+2023-10-02 15:50:47,858 13232 INFO db_odoo odoo.models: Prepare computation of res.users.notification_type 
+2023-10-02 15:50:56,798 13232 INFO db_odoo odoo.modules.loading: loading mail/data/mail_groups.xml 
+2023-10-02 15:50:57,135 13232 INFO db_odoo odoo.modules.loading: loading mail/wizard/mail_blacklist_remove_views.xml 
+2023-10-02 15:50:57,189 13232 INFO db_odoo odoo.modules.loading: loading mail/wizard/mail_compose_message_views.xml 
+2023-10-02 15:50:57,308 13232 INFO db_odoo odoo.modules.loading: loading mail/wizard/mail_resend_message_views.xml 
+2023-10-02 15:50:57,387 13232 INFO db_odoo odoo.modules.loading: loading mail/wizard/mail_template_preview_views.xml 
+2023-10-02 15:50:57,476 13232 INFO db_odoo odoo.modules.loading: loading mail/wizard/mail_wizard_invite_views.xml 
+2023-10-02 15:50:57,537 13232 INFO db_odoo odoo.modules.loading: loading mail/wizard/mail_template_reset_views.xml 
+2023-10-02 15:50:57,605 13232 INFO db_odoo odoo.modules.loading: loading mail/views/fetchmail_views.xml 
+2023-10-02 15:50:57,766 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
+2023-10-02 15:50:57,848 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_tracking_views.xml 
+2023-10-02 15:50:57,963 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_notification_views.xml 
+2023-10-02 15:50:58,067 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_message_views.xml 
+2023-10-02 15:50:58,266 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_message_schedule_views.xml 
+2023-10-02 15:50:58,379 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_mail_views.xml 
+2023-10-02 15:50:58,539 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_followers_views.xml 
+2023-10-02 15:50:58,622 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_ice_server_views.xml 
+2023-10-02 15:50:58,741 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_channel_member_views.xml 
+2023-10-02 15:50:58,851 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_channel_rtc_session_views.xml 
+2023-10-02 15:50:58,956 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_link_preview_views.xml 
+2023-10-02 15:50:59,030 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_channel_views.xml 
+2023-10-02 15:50:59,183 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_shortcode_views.xml 
+2023-10-02 15:50:59,292 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_activity_views.xml 
+2023-10-02 15:50:59,622 13232 INFO db_odoo odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
+2023-10-02 15:50:59,793 13232 INFO db_odoo odoo.modules.loading: loading mail/data/res_partner_data.xml 
+2023-10-02 15:50:59,942 13232 INFO db_odoo odoo.modules.loading: loading mail/data/mail_message_subtype_data.xml 
+2023-10-02 15:51:00,013 13232 INFO db_odoo odoo.modules.loading: loading mail/data/mail_templates_chatter.xml 
+2023-10-02 15:51:00,158 13232 INFO db_odoo odoo.modules.loading: loading mail/data/mail_templates_email_layouts.xml 
+2023-10-02 15:51:00,334 13232 INFO db_odoo odoo.modules.loading: loading mail/data/mail_templates_mailgateway.xml 
+2023-10-02 15:51:00,439 13232 INFO db_odoo odoo.modules.loading: loading mail/data/mail_channel_data.xml 
+2023-10-02 15:51:00,565 13232 INFO db_odoo odoo.modules.loading: loading mail/data/mail_activity_data.xml 
+2023-10-02 15:51:00,667 13232 INFO db_odoo odoo.modules.loading: loading mail/data/ir_cron_data.xml 
+2023-10-02 15:51:00,894 13232 INFO db_odoo odoo.modules.loading: loading mail/security/mail_security.xml 
+2023-10-02 15:51:01,515 13232 INFO db_odoo odoo.modules.loading: loading mail/security/ir.model.access.csv 
+2023-10-02 15:51:01,936 13232 INFO db_odoo odoo.modules.loading: loading mail/views/discuss_public_templates.xml 
+2023-10-02 15:51:02,059 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_alias_views.xml 
+2023-10-02 15:51:02,235 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_gateway_allowed_views.xml 
+2023-10-02 15:51:02,897 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_guest_views.xml 
+2023-10-02 15:51:03,031 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_message_reaction_views.xml 
+2023-10-02 15:51:03,149 13232 INFO db_odoo odoo.modules.loading: loading mail/views/res_users_views.xml 
+2023-10-02 15:51:03,401 13232 INFO db_odoo odoo.modules.loading: loading mail/views/res_users_settings_views.xml 
+2023-10-02 15:51:03,594 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_template_views.xml 
+2023-10-02 15:51:03,860 13232 INFO db_odoo odoo.modules.loading: loading mail/views/ir_actions_server_views.xml 
+2023-10-02 15:51:04,305 13232 INFO db_odoo odoo.modules.loading: loading mail/views/ir_model_views.xml 
+2023-10-02 15:51:05,006 13232 INFO db_odoo odoo.modules.loading: loading mail/views/res_partner_views.xml 
+2023-10-02 15:51:05,722 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
+2023-10-02 15:51:05,912 13232 INFO db_odoo odoo.modules.loading: loading mail/views/mail_menus.xml 
+2023-10-02 15:51:10,456 13232 INFO db_odoo odoo.modules.loading: Module mail loaded in 28.67s, 3459 queries (+3459 other) 
+2023-10-02 15:51:10,456 13232 INFO db_odoo odoo.modules.loading: Loading module auth_signup (15/38) 
+2023-10-02 15:51:11,381 13232 INFO db_odoo odoo.modules.registry: module auth_signup: creating or updating database tables 
+2023-10-02 15:51:11,831 13232 INFO db_odoo odoo.modules.loading: loading auth_signup/data/ir_config_parameter_data.xml 
+2023-10-02 15:51:11,877 13232 INFO db_odoo odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
+2023-10-02 15:51:11,924 13232 INFO db_odoo odoo.modules.loading: loading auth_signup/data/mail_template_data.xml 
+2023-10-02 15:51:11,991 13232 INFO db_odoo odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
+2023-10-02 15:51:12,059 13232 INFO db_odoo odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
+2023-10-02 15:51:12,147 13232 INFO db_odoo odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
+2023-10-02 15:51:12,233 13232 INFO db_odoo odoo.modules.loading: loading auth_signup/views/webclient_templates.xml 
+2023-10-02 15:51:12,332 13232 INFO db_odoo odoo.modules.loading: Module auth_signup loaded in 1.88s, 191 queries (+191 other) 
+2023-10-02 15:51:12,332 13232 INFO db_odoo odoo.modules.loading: Loading module auth_totp_mail (16/38) 
+2023-10-02 15:51:12,516 13232 INFO db_odoo odoo.modules.registry: module auth_totp_mail: creating or updating database tables 
+2023-10-02 15:51:12,609 13232 INFO db_odoo odoo.modules.loading: loading auth_totp_mail/data/ir_action_data.xml 
+2023-10-02 15:51:12,690 13232 INFO db_odoo odoo.modules.loading: loading auth_totp_mail/data/mail_template_data.xml 
+2023-10-02 15:51:12,729 13232 INFO db_odoo odoo.modules.loading: loading auth_totp_mail/views/res_users_views.xml 
+2023-10-02 15:51:12,889 13232 INFO db_odoo odoo.modules.loading: Module auth_totp_mail loaded in 0.56s, 92 queries (+92 other) 
+2023-10-02 15:51:12,889 13232 INFO db_odoo odoo.modules.loading: Loading module base_install_request (17/38) 
+2023-10-02 15:51:13,401 13232 INFO db_odoo odoo.modules.registry: module base_install_request: creating or updating database tables 
+2023-10-02 15:51:13,715 13232 INFO db_odoo odoo.modules.loading: loading base_install_request/security/ir.model.access.csv 
+2023-10-02 15:51:13,769 13232 INFO db_odoo odoo.modules.loading: loading base_install_request/wizard/base_module_install_request_views.xml 
+2023-10-02 15:51:13,838 13232 INFO db_odoo odoo.modules.loading: loading base_install_request/data/mail_template_data.xml 
+2023-10-02 15:51:13,875 13232 INFO db_odoo odoo.modules.loading: loading base_install_request/data/mail_templates_module_install.xml 
+2023-10-02 15:51:13,908 13232 INFO db_odoo odoo.modules.loading: loading base_install_request/views/ir_module_module_views.xml 
+2023-10-02 15:51:13,985 13232 INFO db_odoo odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Project', 'Email Marketing', 'Employees', 'Surveys'] to user __system__ #1 via 127.0.0.1 
+2023-10-02 15:51:14,271 13232 INFO db_odoo odoo.modules.loading: Module base_install_request loaded in 1.38s, 194 queries (+194 other) 
+2023-10-02 15:51:14,271 13232 INFO db_odoo odoo.modules.loading: Loading module calendar (18/38) 
+2023-10-02 15:51:15,890 13232 INFO db_odoo odoo.modules.registry: module calendar: creating or updating database tables 
+2023-10-02 15:51:17,055 13232 INFO db_odoo odoo.modules.loading: loading calendar/security/ir.model.access.csv 
+2023-10-02 15:51:17,123 13232 INFO db_odoo odoo.modules.loading: loading calendar/security/calendar_security.xml 
+2023-10-02 15:51:17,235 13232 INFO db_odoo odoo.modules.loading: loading calendar/data/calendar_cron.xml 
+2023-10-02 15:51:17,288 13232 INFO db_odoo odoo.modules.loading: loading calendar/data/mail_template_data.xml 
+2023-10-02 15:51:17,364 13232 INFO db_odoo odoo.modules.loading: loading calendar/data/calendar_data.xml 
+2023-10-02 15:51:17,423 13232 INFO db_odoo odoo.modules.loading: loading calendar/data/mail_activity_type_data.xml 
+2023-10-02 15:51:17,451 13232 INFO db_odoo odoo.modules.loading: loading calendar/data/mail_message_subtype_data.xml 
+2023-10-02 15:51:17,480 13232 INFO db_odoo odoo.modules.loading: loading calendar/views/mail_activity_views.xml 
+2023-10-02 15:51:17,538 13232 INFO db_odoo odoo.modules.loading: loading calendar/views/calendar_templates.xml 
+2023-10-02 15:51:17,578 13232 INFO db_odoo odoo.modules.loading: loading calendar/views/calendar_views.xml 
+2023-10-02 15:51:17,901 13232 INFO db_odoo odoo.modules.loading: loading calendar/views/res_partner_views.xml 
+2023-10-02 15:51:17,951 13232 INFO db_odoo odoo.modules.loading: loading calendar/wizard/calendar_provider_config.xml 
+2023-10-02 15:51:18,027 13232 INFO db_odoo odoo.modules.loading: Module calendar loaded in 3.76s, 629 queries (+629 other) 
+2023-10-02 15:51:18,027 13232 INFO db_odoo odoo.modules.loading: Loading module contacts (19/38) 
+2023-10-02 15:51:18,152 13232 INFO db_odoo odoo.modules.registry: module contacts: creating or updating database tables 
+2023-10-02 15:51:18,245 13232 INFO db_odoo odoo.modules.loading: loading contacts/views/contact_views.xml 
+2023-10-02 15:51:18,511 13232 INFO db_odoo odoo.modules.loading: Module contacts loaded in 0.48s, 217 queries (+217 other) 
+2023-10-02 15:51:18,511 13232 INFO db_odoo odoo.modules.loading: Loading module google_gmail (20/38) 
+2023-10-02 15:51:18,678 13232 INFO db_odoo odoo.modules.registry: module google_gmail: creating or updating database tables 
+2023-10-02 15:51:18,801 13232 INFO db_odoo odoo.modules.loading: loading google_gmail/views/fetchmail_server_views.xml 
+2023-10-02 15:51:18,857 13232 INFO db_odoo odoo.modules.loading: loading google_gmail/views/ir_mail_server_views.xml 
+2023-10-02 15:51:18,897 13232 INFO db_odoo odoo.modules.loading: loading google_gmail/views/res_config_settings_views.xml 
+2023-10-02 15:51:18,979 13232 INFO db_odoo odoo.modules.loading: Module google_gmail loaded in 0.47s, 123 queries (+123 other) 
+2023-10-02 15:51:18,979 13232 INFO db_odoo odoo.modules.loading: Loading module iap_mail (21/38) 
+2023-10-02 15:51:19,107 13232 INFO db_odoo odoo.modules.registry: module iap_mail: creating or updating database tables 
+2023-10-02 15:51:19,170 13232 INFO db_odoo odoo.modules.loading: loading iap_mail/data/mail_templates.xml 
+2023-10-02 15:51:19,245 13232 INFO db_odoo odoo.modules.loading: Module iap_mail loaded in 0.27s, 36 queries (+36 other) 
+2023-10-02 15:51:19,246 13232 INFO db_odoo odoo.modules.loading: Loading module mail_bot (22/38) 
+2023-10-02 15:51:19,467 13232 INFO db_odoo odoo.modules.registry: module mail_bot: creating or updating database tables 
+2023-10-02 15:51:19,704 13232 INFO db_odoo odoo.modules.loading: loading mail_bot/views/res_users_views.xml 
+2023-10-02 15:51:19,768 13232 INFO db_odoo odoo.modules.loading: loading mail_bot/data/mailbot_data.xml 
+2023-10-02 15:51:19,819 13232 INFO db_odoo odoo.modules.loading: Module mail_bot loaded in 0.57s, 144 queries (+144 other) 
+2023-10-02 15:51:19,819 13232 INFO db_odoo odoo.modules.loading: Loading module phone_validation (23/38) 
+2023-10-02 15:51:20,105 13232 INFO db_odoo odoo.modules.registry: module phone_validation: creating or updating database tables 
+2023-10-02 15:51:20,377 13232 INFO db_odoo odoo.modules.loading: loading phone_validation/security/ir.model.access.csv 
+2023-10-02 15:51:20,401 13232 INFO db_odoo odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml 
+2023-10-02 15:51:20,467 13232 INFO db_odoo odoo.modules.loading: loading phone_validation/wizard/phone_blacklist_remove_view.xml 
+2023-10-02 15:51:20,513 13232 INFO db_odoo odoo.modules.loading: Module phone_validation loaded in 0.69s, 163 queries (+163 other) 
+2023-10-02 15:51:20,513 13232 INFO db_odoo odoo.modules.loading: Loading module privacy_lookup (24/38) 
+2023-10-02 15:51:20,694 13232 INFO db_odoo odoo.modules.registry: module privacy_lookup: creating or updating database tables 
+2023-10-02 15:51:20,963 13232 INFO db_odoo odoo.modules.loading: loading privacy_lookup/wizard/privacy_lookup_wizard_views.xml 
+2023-10-02 15:51:21,034 13232 INFO db_odoo odoo.modules.loading: loading privacy_lookup/views/privacy_log_views.xml 
+2023-10-02 15:51:21,093 13232 INFO db_odoo odoo.modules.loading: loading privacy_lookup/security/ir.model.access.csv 
+2023-10-02 15:51:21,137 13232 INFO db_odoo odoo.modules.loading: loading privacy_lookup/data/ir_actions_server_data.xml 
+2023-10-02 15:51:21,200 13232 INFO db_odoo odoo.modules.loading: Module privacy_lookup loaded in 0.69s, 227 queries (+227 other) 
+2023-10-02 15:51:21,200 13232 INFO db_odoo odoo.modules.loading: Loading module sales_team (25/38) 
+2023-10-02 15:51:21,487 13232 INFO db_odoo odoo.modules.registry: module sales_team: creating or updating database tables 
+2023-10-02 15:51:21,608 13232 INFO db_odoo odoo.models: Prepare computation of res.users.sale_team_id 
+2023-10-02 15:51:21,904 13232 INFO db_odoo odoo.modules.loading: loading sales_team/security/sales_team_security.xml 
+2023-10-02 15:51:22,299 13232 INFO db_odoo odoo.modules.loading: loading sales_team/security/ir.model.access.csv 
+2023-10-02 15:51:22,337 13232 INFO db_odoo odoo.modules.loading: loading sales_team/data/crm_team_data.xml 
+2023-10-02 15:51:22,525 13232 INFO db_odoo odoo.modules.loading: loading sales_team/views/crm_tag_views.xml 
+2023-10-02 15:51:22,570 13232 INFO db_odoo odoo.modules.loading: loading sales_team/views/crm_team_views.xml 
+2023-10-02 15:51:22,649 13232 INFO db_odoo odoo.modules.loading: loading sales_team/views/crm_team_member_views.xml 
+2023-10-02 15:51:22,744 13232 INFO db_odoo odoo.modules.loading: loading sales_team/views/mail_activity_views.xml 
+2023-10-02 15:51:22,764 13232 INFO db_odoo odoo.modules.loading: loading sales_team/views/res_partner_views.xml 
+2023-10-02 15:51:22,828 13232 INFO db_odoo odoo.modules.loading: Module sales_team loaded in 1.63s, 557 queries (+557 other) 
+2023-10-02 15:51:22,828 13232 INFO db_odoo odoo.modules.loading: Loading module web_unsplash (26/38) 
+2023-10-02 15:51:23,001 13232 INFO db_odoo odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2023-10-02 15:51:23,124 13232 INFO db_odoo odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2023-10-02 15:51:23,236 13232 INFO db_odoo odoo.modules.loading: Module web_unsplash loaded in 0.41s, 95 queries (+95 other) 
+2023-10-02 15:51:23,236 13232 INFO db_odoo odoo.modules.loading: Loading module partner_autocomplete (27/38) 
+2023-10-02 15:51:23,460 13232 INFO db_odoo odoo.modules.registry: module partner_autocomplete: creating or updating database tables 
+2023-10-02 15:51:23,652 13232 INFO db_odoo odoo.modules.loading: loading partner_autocomplete/security/ir.model.access.csv 
+2023-10-02 15:51:23,678 13232 INFO db_odoo odoo.modules.loading: loading partner_autocomplete/views/res_partner_views.xml 
+2023-10-02 15:51:23,735 13232 INFO db_odoo odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
+2023-10-02 15:51:23,760 13232 INFO db_odoo odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
+2023-10-02 15:51:23,813 13232 INFO db_odoo odoo.modules.loading: loading partner_autocomplete/data/cron.xml 
+2023-10-02 15:51:23,876 13232 INFO db_odoo odoo.modules.loading: Module partner_autocomplete loaded in 0.64s, 176 queries (+176 other) 
+2023-10-02 15:51:23,877 13232 INFO db_odoo odoo.modules.loading: Loading module portal (28/38) 
+2023-10-02 15:51:24,376 13232 INFO db_odoo odoo.modules.registry: module portal: creating or updating database tables 
+2023-10-02 15:51:24,901 13232 INFO db_odoo odoo.modules.loading: loading portal/security/ir.model.access.csv 
+2023-10-02 15:51:24,921 13232 INFO db_odoo odoo.modules.loading: loading portal/data/mail_template_data.xml 
+2023-10-02 15:51:24,945 13232 INFO db_odoo odoo.modules.loading: loading portal/data/mail_templates.xml 
+2023-10-02 15:51:24,965 13232 INFO db_odoo odoo.modules.loading: loading portal/views/portal_templates.xml 
+2023-10-02 15:51:25,238 13232 INFO db_odoo odoo.modules.loading: loading portal/views/res_config_settings_views.xml 
+2023-10-02 15:51:25,361 13232 INFO db_odoo odoo.modules.loading: loading portal/wizard/portal_share_views.xml 
+2023-10-02 15:51:25,412 13232 INFO db_odoo odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml 
+2023-10-02 15:51:25,501 13232 INFO db_odoo odoo.modules.loading: Module portal loaded in 1.62s, 457 queries (+457 other) 
+2023-10-02 15:51:25,501 13232 INFO db_odoo odoo.modules.loading: Loading module sms (29/38) 
+2023-10-02 15:51:25,912 13232 INFO db_odoo odoo.modules.registry: module sms: creating or updating database tables 
+2023-10-02 15:51:25,931 13232 INFO db_odoo odoo.models: Prepare computation of ir.actions.server.sms_template_id 
+2023-10-02 15:51:25,932 13232 INFO db_odoo odoo.models: Prepare computation of ir.actions.server.sms_method 
+2023-10-02 15:51:26,001 13232 INFO db_odoo odoo.models: Prepare computation of res.partner.phone_sanitized 
+2023-10-02 15:51:26,797 13232 INFO db_odoo odoo.modules.loading: loading sms/data/ir_cron_data.xml 
+2023-10-02 15:51:26,835 13232 INFO db_odoo odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
+2023-10-02 15:51:26,879 13232 INFO db_odoo odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
+2023-10-02 15:51:26,910 13232 INFO db_odoo odoo.modules.loading: loading sms/wizard/sms_resend_views.xml 
+2023-10-02 15:51:26,945 13232 INFO db_odoo odoo.modules.loading: loading sms/wizard/sms_template_reset_views.xml 
+2023-10-02 15:51:26,974 13232 INFO db_odoo odoo.modules.loading: loading sms/views/ir_actions_server_views.xml 
+2023-10-02 15:51:27,004 13232 INFO db_odoo odoo.modules.loading: loading sms/views/mail_notification_views.xml 
+2023-10-02 15:51:27,043 13232 INFO db_odoo odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
+2023-10-02 15:51:27,080 13232 INFO db_odoo odoo.modules.loading: loading sms/views/res_partner_views.xml 
+2023-10-02 15:51:27,171 13232 INFO db_odoo odoo.modules.loading: loading sms/views/sms_sms_views.xml 
+2023-10-02 15:51:27,250 13232 INFO db_odoo odoo.modules.loading: loading sms/views/sms_template_views.xml 
+2023-10-02 15:51:27,312 13232 INFO db_odoo odoo.modules.loading: loading sms/security/ir.model.access.csv 
+2023-10-02 15:51:27,372 13232 INFO db_odoo odoo.modules.loading: loading sms/security/sms_security.xml 
+2023-10-02 15:51:27,444 13232 INFO db_odoo odoo.modules.loading: Module sms loaded in 1.94s, 618 queries (+618 other) 
+2023-10-02 15:51:27,444 13232 INFO db_odoo odoo.modules.loading: Loading module snailmail (30/38) 
+2023-10-02 15:51:27,737 13232 INFO db_odoo odoo.modules.registry: module snailmail: creating or updating database tables 
+2023-10-02 15:51:28,331 13232 INFO db_odoo odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
+2023-10-02 15:51:28,364 13232 INFO db_odoo odoo.modules.loading: loading snailmail/views/report_assets.xml 
+2023-10-02 15:51:28,401 13232 INFO db_odoo odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
+2023-10-02 15:51:28,467 13232 INFO db_odoo odoo.modules.loading: loading snailmail/wizard/snailmail_confirm_views.xml 
+2023-10-02 15:51:28,494 13232 INFO db_odoo odoo.modules.loading: loading snailmail/wizard/snailmail_letter_format_error_views.xml 
+2023-10-02 15:51:28,523 13232 INFO db_odoo odoo.modules.loading: loading snailmail/wizard/snailmail_letter_missing_required_fields_views.xml 
+2023-10-02 15:51:28,552 13232 INFO db_odoo odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
+2023-10-02 15:51:28,612 13232 INFO db_odoo odoo.modules.loading: Module snailmail loaded in 1.17s, 393 queries (+393 other) 
+2023-10-02 15:51:28,612 13232 INFO db_odoo odoo.modules.loading: Loading module auth_totp_portal (31/38) 
+2023-10-02 15:51:28,721 13232 INFO db_odoo odoo.modules.registry: module auth_totp_portal: creating or updating database tables 
+2023-10-02 15:51:28,786 13232 INFO db_odoo odoo.modules.loading: loading auth_totp_portal/security/security.xml 
+2023-10-02 15:51:28,842 13232 INFO db_odoo odoo.modules.loading: loading auth_totp_portal/views/templates.xml 
+2023-10-02 15:51:28,896 13232 INFO db_odoo odoo.modules.loading: Module auth_totp_portal loaded in 0.28s, 68 queries (+68 other) 
+2023-10-02 15:51:28,896 13232 INFO db_odoo odoo.modules.loading: Loading module calendar_sms (32/38) 
+2023-10-02 15:51:29,117 13232 INFO db_odoo odoo.modules.registry: module calendar_sms: creating or updating database tables 
+2023-10-02 15:51:29,133 13232 INFO db_odoo odoo.models: Prepare computation of calendar.alarm.sms_template_id 
+2023-10-02 15:51:29,281 13232 INFO db_odoo odoo.modules.loading: loading calendar_sms/data/sms_data.xml 
+2023-10-02 15:51:29,309 13232 INFO db_odoo odoo.modules.loading: loading calendar_sms/views/calendar_views.xml 
+2023-10-02 15:51:29,411 13232 INFO db_odoo odoo.modules.loading: Module calendar_sms loaded in 0.52s, 94 queries (+94 other) 
+2023-10-02 15:51:29,411 13232 INFO db_odoo odoo.modules.loading: Loading module digest (33/38) 
+2023-10-02 15:51:29,603 13232 INFO db_odoo odoo.modules.registry: module digest: creating or updating database tables 
+2023-10-02 15:51:29,936 13232 INFO db_odoo odoo.modules.loading: loading digest/security/ir.model.access.csv 
+2023-10-02 15:51:29,963 13232 INFO db_odoo odoo.modules.loading: loading digest/data/digest_data.xml 
+2023-10-02 15:51:30,023 13232 INFO db_odoo odoo.modules.loading: loading digest/data/digest_tips_data.xml 
+2023-10-02 15:51:30,080 13232 INFO db_odoo odoo.modules.loading: loading digest/data/ir_cron_data.xml 
+2023-10-02 15:51:30,113 13232 INFO db_odoo odoo.modules.loading: loading digest/data/res_config_settings_data.xml 
+2023-10-02 15:51:30,142 13232 INFO db_odoo odoo.modules.loading: loading digest/views/digest_views.xml 
+2023-10-02 15:51:30,280 13232 INFO db_odoo odoo.modules.loading: loading digest/views/digest_templates.xml 
+2023-10-02 15:51:30,301 13232 INFO db_odoo odoo.modules.loading: loading digest/views/res_config_settings_views.xml 
+2023-10-02 15:51:30,387 13232 INFO db_odoo odoo.modules.loading: Module digest loaded in 0.98s, 295 queries (+295 other) 
+2023-10-02 15:51:30,387 13232 INFO db_odoo odoo.modules.loading: Loading module crm (34/38) 
+2023-10-02 15:51:31,081 13232 INFO db_odoo odoo.modules.registry: module crm: creating or updating database tables 
+2023-10-02 15:51:31,969 13232 INFO db_odoo odoo.addons.mail.models.mail_alias_mixin: Mail alias created for crm.team Sales (id 1) 
+2023-10-02 15:51:31,969 13232 INFO db_odoo odoo.addons.mail.models.mail_alias_mixin: Mail alias created for crm.team eBay (id 4) 
+2023-10-02 15:51:31,969 13232 INFO db_odoo odoo.addons.mail.models.mail_alias_mixin: Mail alias created for crm.team Point of Sale (id 3) 
+2023-10-02 15:51:31,979 13232 INFO db_odoo odoo.addons.mail.models.mail_alias_mixin: Mail alias created for crm.team Website (id 2) 
+2023-10-02 15:51:32,757 13232 INFO db_odoo odoo.modules.loading: loading crm/security/crm_security.xml 
+2023-10-02 15:51:32,887 13232 INFO db_odoo odoo.modules.loading: loading crm/security/ir.model.access.csv 
+2023-10-02 15:51:32,947 13232 INFO db_odoo odoo.modules.loading: loading crm/data/crm_lead_merge_template.xml 
+2023-10-02 15:51:32,977 13232 INFO db_odoo odoo.modules.loading: loading crm/data/crm_lead_prediction_data.xml 
+2023-10-02 15:51:33,156 13232 INFO db_odoo odoo.modules.loading: loading crm/data/crm_lost_reason_data.xml 
+2023-10-02 15:51:33,184 13232 INFO db_odoo odoo.modules.loading: loading crm/data/crm_stage_data.xml 
+2023-10-02 15:51:33,215 13232 INFO db_odoo odoo.modules.loading: loading crm/data/crm_team_data.xml 
+2023-10-02 15:51:33,279 13232 INFO db_odoo odoo.modules.loading: loading crm/data/digest_data.xml 
+2023-10-02 15:51:33,317 13232 INFO db_odoo odoo.modules.loading: loading crm/data/ir_action_data.xml 
+2023-10-02 15:51:33,357 13232 INFO db_odoo odoo.modules.loading: loading crm/data/ir_cron_data.xml 
+2023-10-02 15:51:33,381 13232 INFO db_odoo odoo.modules.loading: loading crm/data/mail_message_subtype_data.xml 
+2023-10-02 15:51:33,427 13232 INFO db_odoo odoo.modules.loading: loading crm/data/crm_recurring_plan_data.xml 
+2023-10-02 15:51:33,467 13232 INFO db_odoo odoo.modules.loading: loading crm/wizard/crm_lead_lost_views.xml 
+2023-10-02 15:51:33,512 13232 INFO db_odoo odoo.modules.loading: loading crm/wizard/crm_lead_to_opportunity_views.xml 
+2023-10-02 15:51:33,546 13232 INFO db_odoo odoo.modules.loading: loading crm/wizard/crm_lead_to_opportunity_mass_views.xml 
+2023-10-02 15:51:33,585 13232 INFO db_odoo odoo.modules.loading: loading crm/wizard/crm_merge_opportunities_views.xml 
+2023-10-02 15:51:33,618 13232 INFO db_odoo odoo.modules.loading: loading crm/wizard/crm_lead_pls_update_views.xml 
+2023-10-02 15:51:33,656 13232 INFO db_odoo odoo.modules.loading: loading crm/views/calendar_views.xml 
+2023-10-02 15:51:33,687 13232 INFO db_odoo odoo.modules.loading: loading crm/views/crm_recurring_plan_views.xml 
+2023-10-02 15:51:33,727 13232 INFO db_odoo odoo.modules.loading: loading crm/views/crm_lost_reason_views.xml 
+2023-10-02 15:51:33,802 13232 INFO db_odoo odoo.modules.loading: loading crm/views/crm_stage_views.xml 
+2023-10-02 15:51:33,870 13232 INFO db_odoo odoo.modules.loading: loading crm/views/crm_lead_views.xml 
+2023-10-02 15:51:34,647 13232 INFO db_odoo odoo.modules.loading: loading crm/views/crm_team_member_views.xml 
+2023-10-02 15:51:34,712 13232 INFO db_odoo odoo.modules.loading: loading crm/views/digest_views.xml 
+2023-10-02 15:51:34,727 13232 INFO db_odoo odoo.modules.loading: loading crm/views/mail_activity_views.xml 
+2023-10-02 15:51:34,747 13232 INFO db_odoo odoo.modules.loading: loading crm/views/res_config_settings_views.xml 
+2023-10-02 15:51:34,817 13232 INFO db_odoo odoo.modules.loading: loading crm/views/res_partner_views.xml 
+2023-10-02 15:51:34,886 13232 INFO db_odoo odoo.modules.loading: loading crm/views/utm_campaign_views.xml 
+2023-10-02 15:51:34,922 13232 INFO db_odoo odoo.modules.loading: loading crm/report/crm_activity_report_views.xml 
+2023-10-02 15:51:34,983 13232 INFO db_odoo odoo.modules.loading: loading crm/report/crm_opportunity_report_views.xml 
+2023-10-02 15:51:35,116 13232 INFO db_odoo odoo.modules.loading: loading crm/views/crm_team_views.xml 
+2023-10-02 15:51:35,304 13232 INFO db_odoo odoo.modules.loading: loading crm/views/crm_menu_views.xml 
+2023-10-02 15:51:35,696 13232 INFO db_odoo odoo.modules.loading: loading crm/views/crm_helper_templates.xml 
+2023-10-02 15:51:35,841 13232 INFO db_odoo odoo.modules.loading: Module crm loaded in 5.45s, 1963 queries (+1963 other) 
+2023-10-02 15:51:35,842 13232 INFO db_odoo odoo.modules.loading: Loading module crm_sms (35/38) 
+2023-10-02 15:51:36,269 13232 INFO db_odoo odoo.modules.loading: loading crm_sms/views/crm_lead_views.xml 
+2023-10-02 15:51:36,416 13232 INFO db_odoo odoo.modules.loading: loading crm_sms/security/ir.model.access.csv 
+2023-10-02 15:51:36,452 13232 INFO db_odoo odoo.modules.loading: loading crm_sms/security/sms_security.xml 
+2023-10-02 15:51:36,520 13232 INFO db_odoo odoo.modules.loading: Module crm_sms loaded in 0.68s, 65 queries (+65 other) 
+2023-10-02 15:51:36,521 13232 INFO db_odoo odoo.modules.loading: Loading module iap_crm (36/38) 
+2023-10-02 15:51:37,136 13232 INFO db_odoo odoo.modules.registry: module iap_crm: creating or updating database tables 
+2023-10-02 15:51:37,346 13232 INFO db_odoo odoo.modules.loading: Module iap_crm loaded in 0.82s, 42 queries (+42 other) 
+2023-10-02 15:51:37,347 13232 INFO db_odoo odoo.modules.loading: Loading module crm_iap_enrich (37/38) 
+2023-10-02 15:51:37,612 13232 INFO db_odoo odoo.modules.registry: module crm_iap_enrich: creating or updating database tables 
+2023-10-02 15:51:37,838 13232 INFO db_odoo odoo.modules.loading: loading crm_iap_enrich/data/ir_cron.xml 
+2023-10-02 15:51:37,899 13232 INFO db_odoo odoo.modules.loading: loading crm_iap_enrich/data/ir_action.xml 
+2023-10-02 15:51:37,943 13232 INFO db_odoo odoo.modules.loading: loading crm_iap_enrich/data/mail_templates.xml 
+2023-10-02 15:51:37,994 13232 INFO db_odoo odoo.modules.loading: loading crm_iap_enrich/views/crm_lead_views.xml 
+2023-10-02 15:51:38,055 13232 INFO db_odoo odoo.modules.loading: loading crm_iap_enrich/views/res_config_settings_view.xml 
+2023-10-02 15:51:38,213 13232 INFO db_odoo odoo.modules.loading: Module crm_iap_enrich loaded in 0.87s, 108 queries (+108 other) 
+2023-10-02 15:51:38,214 13232 INFO db_odoo odoo.modules.loading: Loading module crm_iap_mine (38/38) 
+2023-10-02 15:51:38,716 13232 INFO db_odoo odoo.modules.registry: module crm_iap_mine: creating or updating database tables 
+2023-10-02 15:51:39,606 13232 INFO db_odoo odoo.modules.loading: loading crm_iap_mine/data/crm.iap.lead.industry.csv 
+2023-10-02 15:51:39,672 13232 INFO db_odoo odoo.modules.loading: loading crm_iap_mine/data/crm.iap.lead.role.csv 
+2023-10-02 15:51:39,723 13232 INFO db_odoo odoo.modules.loading: loading crm_iap_mine/data/crm.iap.lead.seniority.csv 
+2023-10-02 15:51:39,751 13232 INFO db_odoo odoo.modules.loading: loading crm_iap_mine/data/mail_template_data.xml 
+2023-10-02 15:51:39,783 13232 INFO db_odoo odoo.modules.loading: loading crm_iap_mine/data/ir_sequence_data.xml 
+2023-10-02 15:51:39,820 13232 INFO db_odoo odoo.modules.loading: loading crm_iap_mine/security/ir.model.access.csv 
+2023-10-02 15:51:39,870 13232 INFO db_odoo odoo.modules.loading: loading crm_iap_mine/views/crm_lead_views.xml 
+2023-10-02 15:51:39,975 13232 INFO db_odoo odoo.modules.loading: loading crm_iap_mine/views/crm_iap_lead_mining_request_views.xml 
+2023-10-02 15:51:40,095 13232 INFO db_odoo odoo.modules.loading: loading crm_iap_mine/views/res_config_settings_views.xml 
+2023-10-02 15:51:40,195 13232 INFO db_odoo odoo.modules.loading: loading crm_iap_mine/views/mail_templates.xml 
+2023-10-02 15:51:40,247 13232 INFO db_odoo odoo.modules.loading: loading crm_iap_mine/views/crm_menus.xml 
+2023-10-02 15:51:40,340 13232 INFO db_odoo odoo.modules.loading: Module crm_iap_mine loaded in 2.13s, 372 queries (+372 other) 
+2023-10-02 15:51:40,340 13232 INFO db_odoo odoo.modules.loading: 38 modules loaded in 64.66s, 11981 queries (+11981 extra) 
+2023-10-02 15:51:40,346 13232 INFO db_odoo odoo.modules.loading: loading 55 modules... 
+2023-10-02 15:51:40,347 13232 INFO db_odoo odoo.modules.loading: Loading module social_media (2/55) 
+2023-10-02 15:51:40,618 13232 INFO db_odoo odoo.modules.registry: module social_media: creating or updating database tables 
+2023-10-02 15:51:40,725 13232 INFO db_odoo odoo.modules.loading: loading social_media/views/res_company_views.xml 
+2023-10-02 15:51:40,796 13232 INFO db_odoo odoo.modules.loading: Module social_media loaded in 0.45s, 69 queries (+69 other) 
+2023-10-02 15:51:40,796 13232 INFO db_odoo odoo.modules.loading: Loading module uom (3/55) 
+2023-10-02 15:51:40,930 13232 INFO db_odoo odoo.modules.registry: module uom: creating or updating database tables 
+2023-10-02 15:51:41,216 13232 INFO db_odoo odoo.modules.loading: loading uom/data/uom_data.xml 
+2023-10-02 15:51:41,415 13232 INFO db_odoo odoo.modules.loading: loading uom/security/uom_security.xml 
+2023-10-02 15:51:41,491 13232 INFO db_odoo odoo.modules.loading: loading uom/security/ir.model.access.csv 
+2023-10-02 15:51:41,524 13232 INFO db_odoo odoo.modules.loading: loading uom/views/uom_uom_views.xml 
+2023-10-02 15:51:41,653 13232 INFO db_odoo odoo.modules.loading: Module uom loaded in 0.86s, 259 queries (+259 other) 
+2023-10-02 15:51:41,654 13232 INFO db_odoo odoo.modules.loading: Loading module analytic (17/55) 
+2023-10-02 15:51:42,125 13232 INFO db_odoo odoo.modules.registry: module analytic: creating or updating database tables 
+2023-10-02 15:51:42,828 13232 INFO db_odoo odoo.modules.loading: loading analytic/security/analytic_security.xml 
+2023-10-02 15:51:42,922 13232 INFO db_odoo odoo.modules.loading: loading analytic/security/ir.model.access.csv 
+2023-10-02 15:51:42,959 13232 INFO db_odoo odoo.modules.loading: loading analytic/views/analytic_line_views.xml 
+2023-10-02 15:51:43,069 13232 INFO db_odoo odoo.modules.loading: loading analytic/views/analytic_account_views.xml 
+2023-10-02 15:51:43,210 13232 INFO db_odoo odoo.modules.loading: loading analytic/views/analytic_plan_views.xml 
+2023-10-02 15:51:43,284 13232 INFO db_odoo odoo.modules.loading: loading analytic/views/analytic_distribution_model_views.xml 
+2023-10-02 15:51:43,340 13232 INFO db_odoo odoo.modules.loading: loading analytic/data/analytic_data.xml 
+2023-10-02 15:51:43,420 13232 INFO db_odoo odoo.modules.loading: Module analytic loaded in 1.77s, 393 queries (+393 other) 
+2023-10-02 15:51:43,421 13232 INFO db_odoo odoo.modules.loading: Loading module gamification (23/55) 
+2023-10-02 15:51:44,112 13232 INFO db_odoo odoo.modules.registry: module gamification: creating or updating database tables 
+2023-10-02 15:51:45,492 13232 INFO db_odoo odoo.modules.loading: loading gamification/wizard/update_goal.xml 
+2023-10-02 15:51:45,537 13232 INFO db_odoo odoo.modules.loading: loading gamification/wizard/grant_badge.xml 
+2023-10-02 15:51:45,601 13232 INFO db_odoo odoo.modules.loading: loading gamification/views/res_users_views.xml 
+2023-10-02 15:51:45,678 13232 INFO db_odoo odoo.modules.loading: loading gamification/views/gamification_karma_rank_views.xml 
+2023-10-02 15:51:45,765 13232 INFO db_odoo odoo.modules.loading: loading gamification/views/gamification_karma_tracking_views.xml 
+2023-10-02 15:51:45,831 13232 INFO db_odoo odoo.modules.loading: loading gamification/views/gamification_badge_views.xml 
+2023-10-02 15:51:45,931 13232 INFO db_odoo odoo.modules.loading: loading gamification/views/gamification_badge_user_views.xml 
+2023-10-02 15:51:45,965 13232 INFO db_odoo odoo.modules.loading: loading gamification/views/gamification_goal_views.xml 
+2023-10-02 15:51:46,072 13232 INFO db_odoo odoo.modules.loading: loading gamification/views/gamification_goal_definition_views.xml 
+2023-10-02 15:51:46,165 13232 INFO db_odoo odoo.modules.loading: loading gamification/views/gamification_challenge_views.xml 
+2023-10-02 15:51:46,262 13232 INFO db_odoo odoo.modules.loading: loading gamification/views/gamification_challenge_line_views.xml 
+2023-10-02 15:51:46,288 13232 INFO db_odoo odoo.modules.loading: loading gamification/views/gamification_menus.xml 
+2023-10-02 15:51:46,372 13232 INFO db_odoo odoo.modules.loading: loading gamification/security/gamification_security.xml 
+2023-10-02 15:51:46,411 13232 INFO db_odoo odoo.modules.loading: loading gamification/security/ir.model.access.csv 
+2023-10-02 15:51:46,473 13232 INFO db_odoo odoo.modules.loading: loading gamification/data/ir_cron_data.xml 
+2023-10-02 15:51:46,523 13232 INFO db_odoo odoo.modules.loading: loading gamification/data/mail_template_data.xml 
+2023-10-02 15:51:46,592 13232 INFO db_odoo odoo.modules.loading: loading gamification/data/gamification_badge_data.xml 
+2023-10-02 15:51:46,839 13232 INFO db_odoo odoo.modules.loading: loading gamification/data/gamification_challenge_data.xml 
+2023-10-02 15:51:46,992 13232 INFO db_odoo odoo.modules.loading: loading gamification/data/gamification_karma_rank_data.xml 
+2023-10-02 15:51:47,806 13232 INFO db_odoo odoo.modules.loading: Module gamification loaded in 4.39s, 938 queries (+938 other) 
+2023-10-02 15:51:47,807 13232 INFO db_odoo odoo.modules.loading: Loading module hr (25/55) 
+2023-10-02 15:51:48,741 13232 INFO db_odoo odoo.modules.registry: module hr: creating or updating database tables 
+2023-10-02 15:51:53,244 13232 INFO db_odoo odoo.modules.loading: loading hr/security/hr_security.xml 
+2023-10-02 15:51:53,613 13232 INFO db_odoo odoo.modules.loading: loading hr/security/ir.model.access.csv 
+2023-10-02 15:51:53,682 13232 INFO db_odoo odoo.modules.loading: loading hr/wizard/hr_plan_wizard_views.xml 
+2023-10-02 15:51:53,721 13232 INFO db_odoo odoo.modules.loading: loading hr/wizard/hr_departure_wizard_views.xml 
+2023-10-02 15:51:53,793 13232 INFO db_odoo odoo.modules.loading: loading hr/views/hr_departure_reason_views.xml 
+2023-10-02 15:51:53,823 13232 INFO db_odoo odoo.modules.loading: loading hr/views/hr_contract_type_views.xml 
+2023-10-02 15:51:53,864 13232 INFO db_odoo odoo.modules.loading: loading hr/views/hr_job_views.xml 
+2023-10-02 15:51:53,926 13232 INFO db_odoo odoo.modules.loading: loading hr/views/hr_plan_views.xml 
+2023-10-02 15:51:54,007 13232 INFO db_odoo odoo.modules.loading: loading hr/views/hr_employee_category_views.xml 
+2023-10-02 15:51:54,036 13232 INFO db_odoo odoo.modules.loading: loading hr/views/hr_employee_public_views.xml 
+2023-10-02 15:51:54,130 13232 INFO db_odoo odoo.modules.loading: loading hr/report/hr_employee_badge.xml 
+2023-10-02 15:51:54,175 13232 INFO db_odoo odoo.modules.loading: loading hr/views/hr_employee_views.xml 
+2023-10-02 15:51:54,384 13232 INFO db_odoo odoo.modules.loading: loading hr/views/hr_department_views.xml 
+2023-10-02 15:51:54,466 13232 INFO db_odoo odoo.modules.loading: loading hr/views/hr_work_location_views.xml 
+2023-10-02 15:51:54,504 13232 INFO db_odoo odoo.modules.loading: loading hr/views/hr_views.xml 
+2023-10-02 15:51:54,705 13232 INFO db_odoo odoo.modules.loading: loading hr/views/res_config_settings_views.xml 
+2023-10-02 15:51:54,859 13232 INFO db_odoo odoo.modules.loading: loading hr/views/mail_channel_views.xml 
+2023-10-02 15:51:54,893 13232 INFO db_odoo odoo.modules.loading: loading hr/views/res_users.xml 
+2023-10-02 15:51:55,056 13232 INFO db_odoo odoo.modules.loading: loading hr/views/res_partner_views.xml 
+2023-10-02 15:51:55,114 13232 INFO db_odoo odoo.modules.loading: loading hr/data/hr_data.xml 
+2023-10-02 15:51:55,508 13232 INFO db_odoo odoo.modules.loading: Module hr loaded in 7.70s, 2859 queries (+2859 other) 
+2023-10-02 15:51:55,509 13232 INFO db_odoo odoo.modules.loading: Loading module link_tracker (27/55) 
+2023-10-02 15:51:55,765 13232 INFO db_odoo odoo.modules.registry: module link_tracker: creating or updating database tables 
+2023-10-02 15:51:56,129 13232 INFO db_odoo odoo.modules.loading: loading link_tracker/views/link_tracker_views.xml 
+2023-10-02 15:51:56,332 13232 INFO db_odoo odoo.modules.loading: loading link_tracker/views/utm_campaign_views.xml 
+2023-10-02 15:51:56,412 13232 INFO db_odoo odoo.modules.loading: loading link_tracker/security/ir.model.access.csv 
+2023-10-02 15:51:56,520 13232 INFO db_odoo odoo.modules.loading: Module link_tracker loaded in 1.01s, 254 queries (+254 other) 
+2023-10-02 15:51:56,520 13232 INFO db_odoo odoo.modules.loading: Loading module rating (31/55) 
+2023-10-02 15:51:56,991 13232 INFO db_odoo odoo.modules.registry: module rating: creating or updating database tables 
+2023-10-02 15:51:57,667 13232 INFO db_odoo odoo.modules.loading: loading rating/views/rating_rating_views.xml 
+2023-10-02 15:51:57,829 13232 INFO db_odoo odoo.modules.loading: loading rating/views/rating_templates.xml 
+2023-10-02 15:51:57,869 13232 INFO db_odoo odoo.modules.loading: loading rating/views/mail_message_views.xml 
+2023-10-02 15:51:57,903 13232 INFO db_odoo odoo.modules.loading: loading rating/security/ir.model.access.csv 
+2023-10-02 15:51:57,972 13232 INFO db_odoo odoo.modules.loading: Module rating loaded in 1.45s, 399 queries (+399 other) 
+2023-10-02 15:51:57,972 13232 INFO db_odoo odoo.modules.loading: Loading module hr_gamification (34/55) 
+2023-10-02 15:51:58,357 13232 INFO db_odoo odoo.modules.registry: module hr_gamification: creating or updating database tables 
+2023-10-02 15:51:58,692 13232 INFO db_odoo odoo.modules.loading: loading hr_gamification/security/gamification_security.xml 
+2023-10-02 15:51:58,723 13232 INFO db_odoo odoo.modules.loading: loading hr_gamification/security/ir.model.access.csv 
+2023-10-02 15:51:58,780 13232 INFO db_odoo odoo.modules.loading: loading hr_gamification/wizard/gamification_badge_user_wizard_views.xml 
+2023-10-02 15:51:58,838 13232 INFO db_odoo odoo.modules.loading: loading hr_gamification/views/gamification_views.xml 
+2023-10-02 15:51:58,958 13232 INFO db_odoo odoo.modules.loading: loading hr_gamification/views/hr_employee_views.xml 
+2023-10-02 15:51:59,048 13232 INFO db_odoo odoo.modules.loading: Module hr_gamification loaded in 1.08s, 253 queries (+253 other) 
+2023-10-02 15:51:59,049 13232 INFO db_odoo odoo.modules.loading: Loading module hr_org_chart (35/55) 
+2023-10-02 15:51:59,528 13232 INFO db_odoo odoo.modules.registry: module hr_org_chart: creating or updating database tables 
+2023-10-02 15:51:59,699 13232 INFO db_odoo odoo.modules.loading: loading hr_org_chart/views/hr_views.xml 
+2023-10-02 15:51:59,809 13232 INFO db_odoo odoo.modules.loading: Module hr_org_chart loaded in 0.76s, 90 queries (+90 other) 
+2023-10-02 15:51:59,809 13232 INFO db_odoo odoo.modules.loading: Loading module mail_bot_hr (36/55) 
+2023-10-02 15:52:00,050 13232 INFO db_odoo odoo.modules.loading: loading mail_bot_hr/views/res_users_views.xml 
+2023-10-02 15:52:00,368 13232 INFO db_odoo odoo.modules.loading: Module mail_bot_hr loaded in 0.56s, 58 queries (+58 other) 
+2023-10-02 15:52:00,369 13232 INFO db_odoo odoo.modules.loading: Loading module survey (41/55) 
+2023-10-02 15:52:00,906 13232 INFO db_odoo odoo.modules.registry: module survey: creating or updating database tables 
+2023-10-02 15:52:01,180 13232 INFO db_odoo odoo.models: Prepare computation of gamification.badge.survey_id 
+2023-10-02 15:52:02,115 13232 INFO db_odoo odoo.modules.loading: loading survey/views/survey_report_templates.xml 
+2023-10-02 15:52:02,169 13232 INFO db_odoo odoo.modules.loading: loading survey/views/survey_reports.xml 
+2023-10-02 15:52:02,205 13232 INFO db_odoo odoo.modules.loading: loading survey/data/mail_template_data.xml 
+2023-10-02 15:52:02,252 13232 INFO db_odoo odoo.modules.loading: loading survey/security/survey_security.xml 
+2023-10-02 15:52:02,796 13232 INFO db_odoo odoo.modules.loading: loading survey/security/ir.model.access.csv 
+2023-10-02 15:52:02,859 13232 INFO db_odoo odoo.modules.loading: loading survey/views/survey_menus.xml 
+2023-10-02 15:52:02,911 13232 INFO db_odoo odoo.modules.loading: loading survey/views/survey_survey_views.xml 
+2023-10-02 15:52:03,049 13232 INFO db_odoo odoo.modules.loading: loading survey/views/survey_user_views.xml 
+2023-10-02 15:52:03,191 13232 INFO db_odoo odoo.modules.loading: loading survey/views/survey_question_views.xml 
+2023-10-02 15:52:03,421 13232 INFO db_odoo odoo.modules.loading: loading survey/views/survey_templates.xml 
+2023-10-02 15:52:03,721 13232 INFO db_odoo odoo.modules.loading: loading survey/views/survey_templates_management.xml 
+2023-10-02 15:52:03,819 13232 INFO db_odoo odoo.modules.loading: loading survey/views/survey_templates_print.xml 
+2023-10-02 15:52:03,871 13232 INFO db_odoo odoo.modules.loading: loading survey/views/survey_templates_statistics.xml 
+2023-10-02 15:52:04,010 13232 INFO db_odoo odoo.modules.loading: loading survey/views/survey_templates_user_input_session.xml 
+2023-10-02 15:52:04,087 13232 INFO db_odoo odoo.modules.loading: loading survey/views/gamification_badge_views.xml 
+2023-10-02 15:52:04,124 13232 INFO db_odoo odoo.modules.loading: loading survey/wizard/survey_invite_views.xml 
+2023-10-02 15:52:04,167 13232 INFO db_odoo odoo.modules.loading: loading survey/views/res_partner_views.xml 
+2023-10-02 15:52:04,303 13232 INFO db_odoo odoo.modules.loading: Module survey loaded in 3.93s, 1226 queries (+1226 other) 
+2023-10-02 15:52:04,303 13232 INFO db_odoo odoo.modules.loading: Loading module portal_rating (45/55) 
+2023-10-02 15:52:04,597 13232 INFO db_odoo odoo.modules.registry: module portal_rating: creating or updating database tables 
+2023-10-02 15:52:04,761 13232 INFO db_odoo odoo.modules.loading: loading portal_rating/views/rating_rating_views.xml 
+2023-10-02 15:52:04,805 13232 INFO db_odoo odoo.modules.loading: loading portal_rating/views/portal_templates.xml 
+2023-10-02 15:52:04,842 13232 INFO db_odoo odoo.modules.loading: loading portal_rating/views/rating_templates.xml 
+2023-10-02 15:52:04,914 13232 INFO db_odoo odoo.modules.loading: Module portal_rating loaded in 0.61s, 103 queries (+103 other) 
+2023-10-02 15:52:04,915 13232 INFO db_odoo odoo.modules.loading: Loading module mass_mailing (47/55) 
+2023-10-02 15:52:05,726 13232 INFO db_odoo odoo.modules.registry: module mass_mailing: creating or updating database tables 
+2023-10-02 15:52:08,614 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/security/res_groups_data.xml 
+2023-10-02 15:52:08,949 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/security/ir.model.access.csv 
+2023-10-02 15:52:09,070 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/data/digest_data.xml 
+2023-10-02 15:52:09,105 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/data/ir_attachment_data.xml 
+2023-10-02 15:52:09,305 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/data/ir_config_parameter_data.xml 
+2023-10-02 15:52:09,335 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/data/ir_cron_data.xml 
+2023-10-02 15:52:09,402 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/data/ir_module_data.xml 
+2023-10-02 15:52:09,432 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/data/mailing_data_templates.xml 
+2023-10-02 15:52:09,521 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/data/mailing_list_data.xml 
+2023-10-02 15:52:09,615 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/data/res_users_data.xml 
+2023-10-02 15:52:09,791 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/wizard/mail_compose_message_views.xml 
+2023-10-02 15:52:09,854 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/wizard/mailing_contact_import_views.xml 
+2023-10-02 15:52:09,902 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/wizard/mailing_contact_to_list_views.xml 
+2023-10-02 15:52:09,951 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/wizard/mailing_list_merge_views.xml 
+2023-10-02 15:52:10,001 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/wizard/mailing_mailing_test_views.xml 
+2023-10-02 15:52:10,044 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/wizard/mailing_mailing_schedule_date_views.xml 
+2023-10-02 15:52:10,090 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/report/mailing_trace_report_views.xml 
+2023-10-02 15:52:10,177 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/mailing_filter_views.xml 
+2023-10-02 15:52:10,254 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/mailing_trace_views.xml 
+2023-10-02 15:52:10,363 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/link_tracker_views.xml 
+2023-10-02 15:52:10,467 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/mailing_contact_views.xml 
+2023-10-02 15:52:10,565 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/mailing_contact_subscription_views.xml 
+2023-10-02 15:52:10,612 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/mailing_list_views.xml 
+2023-10-02 15:52:10,692 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/mailing_mailing_views.xml 
+2023-10-02 15:52:10,912 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/res_config_settings_views.xml 
+2023-10-02 15:52:10,979 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/utm_campaign_views.xml 
+2023-10-02 15:52:11,045 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/mailing_menus.xml 
+2023-10-02 15:52:11,249 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/assets.xml 
+2023-10-02 15:52:11,287 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/mailing_templates_portal_layouts.xml 
+2023-10-02 15:52:11,321 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/mailing_templates_portal_management.xml 
+2023-10-02 15:52:11,359 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/mailing_templates_portal_unsubscribe.xml 
+2023-10-02 15:52:11,404 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/themes_templates.xml 
+2023-10-02 15:52:11,444 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets_themes.xml 
+2023-10-02 15:52:11,675 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_alert.xml 
+2023-10-02 15:52:11,764 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_blockquote.xml 
+2023-10-02 15:52:11,797 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_call_to_action.xml 
+2023-10-02 15:52:11,833 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_coupon_code.xml 
+2023-10-02 15:52:11,857 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_cover.xml 
+2023-10-02 15:52:11,877 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_color_blocks_2.xml 
+2023-10-02 15:52:11,898 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_company_team.xml 
+2023-10-02 15:52:11,934 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_comparisons.xml 
+2023-10-02 15:52:11,960 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_event.xml 
+2023-10-02 15:52:11,978 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_features.xml 
+2023-10-02 15:52:12,002 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_features_grid.xml 
+2023-10-02 15:52:12,042 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_hr.xml 
+2023-10-02 15:52:12,130 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_image_text.xml 
+2023-10-02 15:52:12,168 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_masonry_block.xml 
+2023-10-02 15:52:12,399 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_media_list.xml 
+2023-10-02 15:52:12,436 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_numbers.xml 
+2023-10-02 15:52:12,468 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_picture.xml 
+2023-10-02 15:52:12,495 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_product_list.xml 
+2023-10-02 15:52:12,533 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_rating.xml 
+2023-10-02 15:52:12,606 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_references.xml 
+2023-10-02 15:52:12,634 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_showcase.xml 
+2023-10-02 15:52:12,663 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_text_block.xml 
+2023-10-02 15:52:12,687 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_text_highlight.xml 
+2023-10-02 15:52:12,709 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_text_image.xml 
+2023-10-02 15:52:12,744 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_three_columns.xml 
+2023-10-02 15:52:12,772 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing/views/snippets/s_title.xml 
+2023-10-02 15:52:12,872 13232 INFO db_odoo odoo.modules.loading: Module mass_mailing loaded in 7.96s, 2136 queries (+2136 other) 
+2023-10-02 15:52:12,872 13232 INFO db_odoo odoo.modules.loading: Loading module project (48/55) 
+2023-10-02 15:52:13,785 13232 INFO db_odoo odoo.modules.registry: module project: creating or updating database tables 
+2023-10-02 15:52:16,119 13232 INFO db_odoo odoo.modules.loading: loading project/security/project_security.xml 
+2023-10-02 15:52:17,007 13232 INFO db_odoo odoo.modules.loading: loading project/security/ir.model.access.csv 
+2023-10-02 15:52:17,152 13232 INFO db_odoo odoo.modules.loading: loading project/security/ir.model.access.xml 
+2023-10-02 15:52:17,182 13232 INFO db_odoo odoo.modules.loading: loading project/data/digest_data.xml 
+2023-10-02 15:52:17,232 13232 INFO db_odoo odoo.modules.loading: loading project/report/project_report_views.xml 
+2023-10-02 15:52:17,340 13232 INFO db_odoo odoo.modules.loading: loading project/report/project_task_burndown_chart_report_views.xml 
+2023-10-02 15:52:17,399 13232 INFO db_odoo odoo.modules.loading: loading project/views/analytic_views.xml 
+2023-10-02 15:52:17,440 13232 INFO db_odoo odoo.modules.loading: loading project/views/digest_views.xml 
+2023-10-02 15:52:17,486 13232 INFO db_odoo odoo.modules.loading: loading project/views/rating_rating_views.xml 
+2023-10-02 15:52:17,699 13232 INFO db_odoo odoo.modules.loading: loading project/views/project_update_views.xml 
+2023-10-02 15:52:17,756 13232 INFO db_odoo odoo.modules.loading: loading project/views/project_update_templates.xml 
+2023-10-02 15:52:17,787 13232 INFO db_odoo odoo.modules.loading: loading project/views/project_project_stage_views.xml 
+2023-10-02 15:52:17,869 13232 INFO db_odoo odoo.modules.loading: loading project/wizard/project_share_wizard_views.xml 
+2023-10-02 15:52:17,901 13232 INFO db_odoo odoo.modules.loading: loading project/views/project_collaborator_views.xml 
+2023-10-02 15:52:17,934 13232 INFO db_odoo odoo.modules.loading: loading project/views/project_views.xml 
+2023-10-02 15:52:19,129 13232 INFO db_odoo odoo.modules.loading: loading project/views/project_milestone_views.xml 
+2023-10-02 15:52:19,184 13232 INFO db_odoo odoo.modules.loading: loading project/views/res_partner_views.xml 
+2023-10-02 15:52:19,250 13232 INFO db_odoo odoo.modules.loading: loading project/views/res_config_settings_views.xml 
+2023-10-02 15:52:19,382 13232 INFO db_odoo odoo.modules.loading: loading project/views/mail_activity_views.xml 
+2023-10-02 15:52:19,421 13232 INFO db_odoo odoo.modules.loading: loading project/views/project_sharing_views.xml 
+2023-10-02 15:52:19,585 13232 INFO db_odoo odoo.modules.loading: loading project/views/project_portal_templates.xml 
+2023-10-02 15:52:19,709 13232 INFO db_odoo odoo.modules.loading: loading project/views/project_task_templates.xml 
+2023-10-02 15:52:19,734 13232 INFO db_odoo odoo.modules.loading: loading project/views/project_sharing_templates.xml 
+2023-10-02 15:52:19,791 13232 INFO db_odoo odoo.modules.loading: loading project/data/ir_cron_data.xml 
+2023-10-02 15:52:19,817 13232 INFO db_odoo odoo.modules.loading: loading project/data/mail_message_subtype_data.xml 
+2023-10-02 15:52:19,902 13232 INFO db_odoo odoo.modules.loading: loading project/data/mail_template_data.xml 
+2023-10-02 15:52:19,934 13232 INFO db_odoo odoo.modules.loading: loading project/data/project_data.xml 
+2023-10-02 15:52:19,958 13232 INFO db_odoo odoo.modules.loading: loading project/wizard/project_task_type_delete_views.xml 
+2023-10-02 15:52:20,071 13232 INFO db_odoo odoo.modules.loading: Module project loaded in 7.20s, 2388 queries (+2388 other) 
+2023-10-02 15:52:20,071 13232 INFO db_odoo odoo.modules.loading: Loading module mass_mailing_crm (51/55) 
+2023-10-02 15:52:20,479 13232 INFO db_odoo odoo.modules.registry: module mass_mailing_crm: creating or updating database tables 
+2023-10-02 15:52:20,607 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing_crm/views/mailing_mailing_views.xml 
+2023-10-02 15:52:20,662 13232 INFO db_odoo odoo.modules.loading: Module mass_mailing_crm loaded in 0.59s, 76 queries (+76 other) 
+2023-10-02 15:52:20,662 13232 INFO db_odoo odoo.modules.loading: Loading module mass_mailing_themes (52/55) 
+2023-10-02 15:52:20,833 13232 INFO db_odoo odoo.modules.loading: loading mass_mailing_themes/views/mass_mailing_themes_templates.xml 
+2023-10-02 15:52:21,133 13232 INFO db_odoo odoo.modules.loading: Module mass_mailing_themes loaded in 0.47s, 59 queries (+59 other) 
+2023-10-02 15:52:21,137 13232 INFO db_odoo odoo.modules.loading: Loading module project_sms (53/55) 
+2023-10-02 15:52:21,983 13232 INFO db_odoo odoo.modules.registry: module project_sms: creating or updating database tables 
+2023-10-02 15:52:22,305 13232 INFO db_odoo odoo.modules.loading: loading project_sms/views/project_stage_views.xml 
+2023-10-02 15:52:22,397 13232 INFO db_odoo odoo.modules.loading: loading project_sms/views/project_task_type_views.xml 
+2023-10-02 15:52:22,477 13232 INFO db_odoo odoo.modules.loading: loading project_sms/views/project_views.xml 
+2023-10-02 15:52:22,516 13232 INFO db_odoo odoo.modules.loading: loading project_sms/security/ir.model.access.csv 
+2023-10-02 15:52:22,537 13232 INFO db_odoo odoo.modules.loading: loading project_sms/security/project_sms_security.xml 
+2023-10-02 15:52:22,594 13232 INFO db_odoo odoo.modules.loading: Module project_sms loaded in 1.46s, 175 queries (+175 other) 
+2023-10-02 15:52:22,594 13232 INFO db_odoo odoo.modules.loading: 55 modules loaded in 42.25s, 11735 queries (+11735 extra) 
+2023-10-02 15:52:25,692 13232 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2023-10-02 15:52:25,707 13232 INFO db_odoo odoo.modules.registry: Registry loaded in 111.401s 
+2023-10-02 15:52:25,708 13232 INFO db_odoo odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-10-02 15:52:25,748 13232 INFO db_odoo odoo.modules.registry: Registry changed, signaling through the database 
+2023-10-02 15:52:25,752 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:52:25] "POST /web/dataset/call_button HTTP/1.1" 200 - 25592 52.516 59.332
+2023-10-02 15:52:26,435 13232 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-10-02 15:53:29,389 13232 INFO db_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-10-02 15:53:29,400 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:53:29] "GET /web HTTP/1.1" 200 - 174 0.511 62.458
+2023-10-02 15:53:29,943 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:53:29] "GET /web/assets/110-6c4efb1/web.assets_backend.min.css HTTP/1.1" 200 - 8 0.011 0.031
+2023-10-02 15:53:29,954 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:53:29] "GET /web/assets/109-7c1ee99/web.assets_common.min.css HTTP/1.1" 200 - 8 0.029 0.027
+2023-10-02 15:53:30,131 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:53:30] "GET /web/webclient/translations/216fd44d2a4ab4784370e56a741fb003d5949692?lang=en_US HTTP/1.1" 200 - 2 0.001 0.020
+2023-10-02 15:53:30,316 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:53:30] "GET /web/webclient/load_menus/62cd8008e58fef893a80f2fce45428a4c9236b14fdc3f3855720e2131d905357 HTTP/1.1" 200 - 31 0.112 0.117
+2023-10-02 15:53:30,715 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:53:30] "GET /web/assets/112-6c4efb1/web.assets_backend.min.js HTTP/1.1" 200 - 4 0.029 0.401
+2023-10-02 15:53:30,723 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:53:30] "GET /web/assets/113-045186a/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 4 0.005 0.044
+2023-10-02 15:53:30,923 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:53:30] "GET /web/assets/111-7c1ee99/web.assets_common.min.js HTTP/1.1" 200 - 6 0.022 0.995
+2023-10-02 15:53:34,993 13232 INFO db_odoo odoo.addons.partner_autocomplete.models.res_company: Starting enrich of company My Company (1) 
+2023-10-02 15:53:35,037 13232 INFO db_odoo odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2023-10-02 15:53:35,039 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:53:35] "POST /web/dataset/call_kw/res.company/iap_enrich_auto HTTP/1.1" 200 - 14 0.051 0.025
+2023-10-02 15:53:35,264 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:53:35] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 11 0.011 0.022
+2023-10-02 15:53:36,676 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:53:36] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 13 0.044 0.027
+2023-10-02 15:53:37,288 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:53:37] "POST /mail/init_messaging HTTP/1.1" 200 - 104 0.234 0.453
+2023-10-02 15:53:38,443 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:53:38] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.020 0.013
+2023-10-02 15:53:38,655 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:53:38] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.007
+2023-10-02 15:54:15,970 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:54:15] "POST /web/action/load HTTP/1.1" 200 - 8 0.014 0.018
+2023-10-02 15:54:16,033 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:54:16] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 8 0.013 0.024
+2023-10-02 15:54:16,095 13232 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 15:54:16] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.031
+2023-10-02 15:54:16,258 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:54:16] "POST /mail/inbox/messages HTTP/1.1" 200 - 5 0.063 0.018
+2023-10-02 15:54:16,386 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:54:16] "GET /web/image/mail.channel/1/avatar_128?unique=de595c7e8c2448b0286ddb0cfd0db4cf2df92efc51546cc14fe97a3d04285696cfbd58e1298b9fc603067c545d6268145a4aa67261262e36095d71ba4493714c HTTP/1.1" 200 - 4 0.003 0.010
+2023-10-02 15:54:16,496 13232 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 15:54:16] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 200 - 7 0.011 0.030
+2023-10-02 16:16:43,478 8788 INFO ? odoo: Odoo version 16.0-20231001 
+2023-10-02 16:16:43,482 8788 INFO ? odoo: Using configuration file at C:\Program Files\server\odoo-conf\training.conf 
+2023-10-02 16:16:43,482 8788 INFO ? odoo: addons paths: ['C:\\Program Files\\server\\odoo\\addons', 'c:\\program files\\sessions\\addons\\16.0', 'c:\\program files\\server\\addons', 'c:\\program files\\server\\odoo\\addons'] 
+2023-10-02 16:16:43,482 8788 INFO ? odoo: database: openpg@localhost:5432 
+2023-10-02 16:16:46,843 8788 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\thirdparty\wkhtmltopdf.exe 
+2023-10-02 16:16:48,024 8788 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-U78KA7P:8015 
+2023-10-02 16:20:47,600 8788 INFO ? odoo.service.server: Initiating shutdown 
+2023-10-02 16:20:47,600 8788 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-10-02 16:20:47,860 8788 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2023-10-02 16:21:16,433 12092 INFO ? odoo: Odoo version 16.0-20231001 
+2023-10-02 16:21:16,433 12092 INFO ? odoo: Using configuration file at C:\Program Files\server\odoo-conf\training.conf 
+2023-10-02 16:21:16,433 12092 INFO ? odoo: addons paths: ['C:\\Program Files\\server\\odoo\\addons', 'c:\\program files\\sessions\\addons\\16.0', 'c:\\program files\\server\\addons', 'c:\\program files\\server\\odoo\\addons'] 
+2023-10-02 16:21:16,433 12092 INFO ? odoo: database: openpg@localhost:5432 
+2023-10-02 16:21:17,859 12092 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\thirdparty\wkhtmltopdf.exe 
+2023-10-02 16:21:20,008 12092 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-U78KA7P:8015 
+2023-10-02 16:21:39,391 12092 INFO ? odoo.service.server: Initiating shutdown 
+2023-10-02 16:21:39,391 12092 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-10-02 16:21:39,773 12092 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2023-10-02 16:21:49,436 7336 INFO ? odoo: Odoo version 16.0-20231001 
+2023-10-02 16:21:49,436 7336 INFO ? odoo: Using configuration file at C:\Program Files\server\odoo-conf\training.conf 
+2023-10-02 16:21:49,436 7336 INFO ? odoo: addons paths: ['C:\\Program Files\\server\\odoo\\addons', 'c:\\program files\\sessions\\addons\\16.0', 'c:\\program files\\server\\addons', 'c:\\program files\\server\\odoo\\addons'] 
+2023-10-02 16:21:49,440 7336 INFO ? odoo: database: openpg@localhost:5432 
+2023-10-02 16:21:50,076 7336 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\thirdparty\wkhtmltopdf.exe 
+2023-10-02 16:21:50,925 7336 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-U78KA7P:8069 
+2023-10-02 16:22:04,650 7336 INFO ? odoo.service.server: Initiating shutdown 
+2023-10-02 16:22:04,651 7336 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-10-02 16:22:05,135 7336 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2023-10-02 16:22:16,954 13232 INFO ? odoo.service.server: Initiating shutdown 
+2023-10-02 16:22:16,970 13232 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-10-02 16:22:17,378 13232 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 7 connections  
+2023-10-02 16:22:54,144 11468 INFO ? odoo: Odoo version 16.0-20231001 
+2023-10-02 16:22:54,148 11468 INFO ? odoo: Using configuration file at C:\Program Files\server\odoo-conf\training.conf 
+2023-10-02 16:22:54,148 11468 INFO ? odoo: addons paths: ['C:\\Program Files\\server\\odoo\\addons', 'c:\\program files\\sessions\\addons\\16.0', 'c:\\program files\\server\\addons', 'c:\\program files\\server\\odoo\\addons'] 
+2023-10-02 16:22:54,148 11468 INFO ? odoo: database: openpg@localhost:5432 
+2023-10-02 16:22:54,790 11468 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\thirdparty\wkhtmltopdf.exe 
+2023-10-02 16:22:55,611 11468 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-U78KA7P:8069 
+2023-10-02 16:23:12,464 11468 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2023-10-02 16:23:12,547 11468 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.08s, 0 queries (+0 extra) 
+2023-10-02 16:23:12,912 11468 INFO db_odoo odoo.modules.loading: loading 55 modules... 
+2023-10-02 16:23:16,841 11468 INFO db_odoo odoo.modules.loading: 55 modules loaded in 3.93s, 0 queries (+0 extra) 
+2023-10-02 16:23:17,728 11468 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2023-10-02 16:23:17,759 11468 INFO db_odoo odoo.modules.registry: Registry loaded in 6.654s 
+2023-10-02 16:23:17,766 11468 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-10-02 16:23:19,729 11468 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:23:19] "GET /websocket HTTP/1.1" 101 - 23 0.162 8.491
+2023-10-02 16:23:19,838 11468 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-10-02 16:23:57,186 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Base: Auto-vacuum internal data`. 
+2023-10-02 16:23:57,210 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-10-02 16:23:57,303 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-10-02 16:23:57,341 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Delete Notifications older than 6 Month`. 
+2023-10-02 16:23:57,377 11468 INFO db_odoo odoo.addons.base.models.ir_attachment: filestore gc 46 checked, 5 removed 
+2023-10-02 16:23:57,406 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Notification: Delete Notifications older than 6 Month` done. 
+2023-10-02 16:23:57,474 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-10-02 16:23:57,528 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-10-02 16:23:57,565 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Users: Notify About Unregistered Users`. 
+2023-10-02 16:23:57,568 11468 INFO db_odoo odoo.addons.base.models.res_users: GC'd 1 user log entries 
+2023-10-02 16:23:57,615 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Users: Notify About Unregistered Users` done. 
+2023-10-02 16:23:57,638 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Calendar: Event Reminder`. 
+2023-10-02 16:23:57,673 11468 INFO db_odoo odoo.addons.auth_totp.models.auth_totp: GC'd 0 totp devices entries 
+2023-10-02 16:23:57,688 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Calendar: Event Reminder` done. 
+2023-10-02 16:23:57,731 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-10-02 16:23:57,755 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-10-02 16:23:57,770 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-10-02 16:23:57,773 11468 INFO db_odoo odoo.models.unlink: User #1 deleted bus.bus records with IDs: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35] 
+2023-10-02 16:23:57,903 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-10-02 16:23:57,927 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-10-02 16:23:58,013 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-10-02 16:23:58,073 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `CRM: enrich leads (IAP)`. 
+2023-10-02 16:23:58,161 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Job `CRM: enrich leads (IAP)` done. 
+2023-10-02 16:23:58,191 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Gamification: Goal Challenge Check`. 
+2023-10-02 16:23:58,413 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Base: Auto-vacuum internal data` done. 
+2023-10-02 16:23:58,468 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `HR Employee: check work permit validity`. 
+2023-10-02 16:23:58,510 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Job `HR Employee: check work permit validity` done. 
+2023-10-02 16:23:58,527 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Mail Marketing: Process queue`. 
+2023-10-02 16:23:58,541 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Gamification: Goal Challenge Check` done. 
+2023-10-02 16:23:58,559 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Starting job `Project: Send rating`. 
+2023-10-02 16:23:58,568 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Mail Marketing: Process queue` done. 
+2023-10-02 16:23:58,586 11468 INFO db_odoo odoo.addons.base.models.ir_cron: Job `Project: Send rating` done. 
+2023-10-02 16:25:09,663 11468 INFO ? odoo.service.server: Initiating shutdown 
+2023-10-02 16:25:09,664 11468 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-10-02 16:25:09,859 11468 WARNING ? odoo.service.server: Exception in _kick_all 
+Traceback (most recent call last):
+  File "C:\Program Files\server\odoo\service\server.py", line 368, in stop
+    func()
+  File "C:\Program Files\server\odoo\addons\bus\websocket.py", line 599, in _kick_all
+    websocket.disconnect(CloseCode.GOING_AWAY)
+  File "C:\Program Files\server\odoo\addons\bus\websocket.py", line 291, in disconnect
+    self._send_close_frame(code, reason)
+  File "C:\Program Files\server\odoo\addons\bus\websocket.py", line 510, in _send_close_frame
+    self._send_frame(CloseFrame(code, reason))
+  File "C:\Program Files\server\odoo\addons\bus\websocket.py", line 503, in _send_frame
+    return self._terminate()
+  File "C:\Program Files\server\odoo\addons\bus\websocket.py", line 531, in _terminate
+    self._selector.unregister(self._socket)
+  File "C:\Program Files\python\lib\selectors.py", line 308, in unregister
+    key = super().unregister(fileobj)
+  File "C:\Program Files\python\lib\selectors.py", line 250, in unregister
+    key = self._fd_to_key.pop(self._fileobj_lookup(fileobj))
+  File "C:\Program Files\python\lib\selectors.py", line 226, in _fileobj_lookup
+    return _fileobj_to_fd(fileobj)
+  File "C:\Program Files\python\lib\selectors.py", line 42, in _fileobj_to_fd
+    raise ValueError("Invalid file descriptor: {}".format(fd))
+ValueError: Invalid file descriptor: -1
+2023-10-02 16:25:09,963 11468 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 8 connections  
+2023-10-02 16:27:33,292 11492 INFO ? odoo: Odoo version 16.0-20231001 
+2023-10-02 16:27:33,293 11492 INFO ? odoo: Using configuration file at C:\Program Files\server\odoo-conf\training.conf 
+2023-10-02 16:27:33,293 11492 INFO ? odoo: addons paths: ['C:\\Program Files\\server\\odoo\\addons', 'c:\\program files\\sessions\\addons\\16.0', 'c:\\program files\\server\\addons', 'c:\\program files\\server\\odoo\\addons'] 
+2023-10-02 16:27:33,294 11492 INFO ? odoo: database: openpg@localhost:5432 
+2023-10-02 16:27:33,968 11492 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\thirdparty\wkhtmltopdf.exe 
+2023-10-02 16:27:34,880 11492 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-U78KA7P:8069 
+2023-10-02 16:27:38,941 11492 INFO ? odoo.sql_db: Connection to the database failed 
+2023-10-02 16:28:33,691 11492 INFO ? odoo.service.server: Initiating shutdown 
+2023-10-02 16:28:33,691 11492 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-10-02 16:29:18,234 11960 INFO ? odoo: Odoo version 16.0-20231001 
+2023-10-02 16:29:18,235 11960 INFO ? odoo: Using configuration file at C:\Program Files\server\odoo-conf\training.conf 
+2023-10-02 16:29:18,235 11960 INFO ? odoo: addons paths: ['C:\\Program Files\\server\\odoo\\addons', 'c:\\program files\\sessions\\addons\\16.0', 'c:\\program files\\server\\addons', 'c:\\program files\\server\\odoo\\addons'] 
+2023-10-02 16:29:18,235 11960 INFO ? odoo: database: openpg@localhost:5432 
+2023-10-02 16:29:18,874 11960 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\thirdparty\wkhtmltopdf.exe 
+2023-10-02 16:29:19,709 11960 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-U78KA7P:8069 
+2023-10-02 16:29:23,788 11960 INFO ? odoo.sql_db: Connection to the database failed 
+2023-10-02 16:30:06,161 11960 INFO ? odoo.service.server: Initiating shutdown 
+2023-10-02 16:30:06,161 11960 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-10-02 16:30:28,791 7000 INFO ? odoo: Odoo version 16.0-20231001 
+2023-10-02 16:30:28,793 7000 INFO ? odoo: Using configuration file at C:\Program Files\server\odoo-conf\training.conf 
+2023-10-02 16:30:28,793 7000 INFO ? odoo: addons paths: ['C:\\Program Files\\server\\odoo\\addons', 'c:\\program files\\sessions\\addons\\16.0', 'c:\\program files\\server\\addons', 'c:\\program files\\server\\odoo\\addons'] 
+2023-10-02 16:30:28,794 7000 INFO ? odoo: database: openpg@localhost:5432 
+2023-10-02 16:30:29,598 7000 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\thirdparty\wkhtmltopdf.exe 
+2023-10-02 16:30:30,479 7000 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-U78KA7P:8069 
+2023-10-02 16:30:53,698 7000 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2023-10-02 16:30:53,734 7000 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.03s, 0 queries (+0 extra) 
+2023-10-02 16:30:53,916 7000 INFO db_odoo odoo.modules.loading: loading 55 modules... 
+2023-10-02 16:30:57,238 7000 INFO db_odoo odoo.modules.loading: 55 modules loaded in 3.32s, 0 queries (+0 extra) 
+2023-10-02 16:30:57,786 7000 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2023-10-02 16:30:57,815 7000 INFO db_odoo odoo.modules.registry: Registry loaded in 4.412s 
+2023-10-02 16:30:57,817 7000 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-10-02 16:30:59,290 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:30:59] "GET / HTTP/1.1" 303 - 25 0.290 5.611
+2023-10-02 16:31:04,907 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:31:04] "GET /web HTTP/1.1" 200 - 90 0.272 5.017
+2023-10-02 16:31:08,373 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:31:08] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.018
+2023-10-02 16:31:08,470 7000 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-10-02 16:31:09,501 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:31:09] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 12 0.103 0.530
+2023-10-02 16:31:10,914 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:31:10] "POST /mail/init_messaging HTTP/1.1" 200 - 46 0.204 0.119
+2023-10-02 16:31:11,302 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:31:11] "POST /mail/load_message_failures HTTP/1.1" 200 - 4 0.010 0.018
+2023-10-02 16:31:14,842 7000 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 16:31:14] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 4.070
+2023-10-02 16:31:14,900 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:31:14] "POST /web/action/load HTTP/1.1" 200 - 8 0.035 6.102
+2023-10-02 16:31:14,913 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:31:14] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 11 0.069 4.182
+2023-10-02 16:31:15,306 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:31:15] "POST /mail/inbox/messages HTTP/1.1" 200 - 7 0.015 0.016
+2023-10-02 16:31:20,063 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:31:20] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 304 - 7 0.007 0.065
+2023-10-02 16:32:00,451 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:32:00] "POST /mail/starred/messages HTTP/1.1" 200 - 4 0.003 0.012
+2023-10-02 16:32:08,056 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:32:08] "POST /web/action/load HTTP/1.1" 200 - 12 0.045 0.021
+2023-10-02 16:32:08,458 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:32:08] "POST /web/action/run HTTP/1.1" 200 - 25 0.069 0.117
+2023-10-02 16:32:09,063 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:32:09] "POST /web/dataset/call_kw/crm.lead/get_views HTTP/1.1" 200 - 70 0.125 0.462
+2023-10-02 16:32:09,722 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:32:09] "POST /web/dataset/call_kw/crm.lead/web_read_group HTTP/1.1" 200 - 9 0.058 0.187
+2023-10-02 16:32:09,743 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:32:09] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.010 0.241
+2023-10-02 16:32:09,779 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:32:09] "POST /web/dataset/call_kw/crm.stage/read HTTP/1.1" 200 - 2 0.001 0.019
+2023-10-02 16:32:09,779 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:32:09] "POST /web/dataset/call_kw/crm.lead/read_progress_bar HTTP/1.1" 200 - 2 0.046 0.248
+2023-10-02 16:32:10,264 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:32:10] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 1 0.000 0.010
+2023-10-02 16:32:10,922 7000 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 16:32:10] "GET /web/static/img/smiling_face.svg HTTP/1.1" 200 - 0 0.000 0.189
+2023-10-02 16:32:11,554 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:32:11] "GET /web/image/res.users/1/avatar_128 HTTP/1.1" 200 - 9 0.039 0.068
+2023-10-02 16:32:11,556 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:32:11] "GET /web/image/res.users/2/avatar_128 HTTP/1.1" 200 - 8 0.069 0.059
+2023-10-02 16:32:11,666 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:32:11] "GET /web/image/res.users/3/avatar_128 HTTP/1.1" 200 - 8 0.032 0.135
+2023-10-02 16:32:11,674 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:32:11] "GET /web/image/res.users/4/avatar_128 HTTP/1.1" 200 - 8 0.024 0.057
+2023-10-02 16:32:20,066 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:32:20] "POST /web/dataset/call_kw/crm.lead/get_views HTTP/1.1" 200 - 7 0.015 0.035
+2023-10-02 16:32:20,424 7000 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:32:20] "POST /web/dataset/call_kw/crm.lead/onchange HTTP/1.1" 200 - 13 0.048 0.072
+2023-10-02 16:34:00,004 13132 INFO ? odoo: Odoo version 16.0-20231001 
+2023-10-02 16:34:00,004 13132 INFO ? odoo: Using configuration file at C:\Program Files\server\odoo-conf\training.conf 
+2023-10-02 16:34:00,004 13132 INFO ? odoo: addons paths: ['C:\\Program Files\\server\\odoo\\addons', 'c:\\program files\\sessions\\addons\\16.0', 'c:\\program files\\server\\addons', 'c:\\program files\\server\\odoo\\addons'] 
+2023-10-02 16:34:00,008 13132 INFO ? odoo: database: openpg@localhost:5432 
+2023-10-02 16:34:03,873 13132 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Program Files\thirdparty\wkhtmltopdf.exe 
+2023-10-02 16:34:05,020 13132 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-U78KA7P:8069 
+2023-10-02 16:34:08,859 13132 INFO db_odoo odoo.modules.loading: loading 1 modules... 
+2023-10-02 16:34:08,885 13132 INFO db_odoo odoo.modules.loading: 1 modules loaded in 0.03s, 0 queries (+0 extra) 
+2023-10-02 16:34:09,086 13132 INFO db_odoo odoo.modules.loading: loading 55 modules... 
+2023-10-02 16:34:12,604 13132 INFO db_odoo odoo.modules.loading: 55 modules loaded in 3.52s, 0 queries (+0 extra) 
+2023-10-02 16:34:13,091 13132 INFO db_odoo odoo.modules.loading: Modules loaded. 
+2023-10-02 16:34:13,122 13132 INFO db_odoo odoo.modules.registry: Registry loaded in 4.381s 
+2023-10-02 16:34:13,130 13132 INFO db_odoo odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-10-02 16:34:14,496 13132 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:34:14] "GET /websocket HTTP/1.1" 101 - 23 0.107 5.652
+2023-10-02 16:34:14,535 13132 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-10-02 16:34:22,979 13132 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:34:22] "GET / HTTP/1.1" 303 - 3 0.009 0.025
+2023-10-02 16:34:30,464 13132 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:34:30] "GET /web HTTP/1.1" 200 - 87 0.199 7.264
+2023-10-02 16:34:33,387 13132 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:34:33] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 12 0.015 0.061
+2023-10-02 16:34:35,256 13132 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:34:35] "POST /mail/init_messaging HTTP/1.1" 200 - 46 0.166 0.102
+2023-10-02 16:34:35,646 13132 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:34:35] "POST /mail/load_message_failures HTTP/1.1" 200 - 4 0.000 0.020
+2023-10-02 16:34:37,905 13132 INFO ? werkzeug: 127.0.0.1 - - [02/Oct/2023 16:34:37] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 2.831
+2023-10-02 16:34:38,290 13132 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:34:38] "POST /web/action/load HTTP/1.1" 200 - 8 0.021 4.996
+2023-10-02 16:34:38,377 13132 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:34:38] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 11 0.043 3.338
+2023-10-02 16:34:38,689 13132 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:34:38] "POST /mail/inbox/messages HTTP/1.1" 200 - 7 0.014 0.017
+2023-10-02 16:34:38,815 13132 INFO db_odoo werkzeug: 127.0.0.1 - - [02/Oct/2023 16:34:38] "GET /web/image/res.partner/2/avatar_128 HTTP/1.1" 304 - 7 0.014 0.056
