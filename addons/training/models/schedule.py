@@ -3,6 +3,7 @@ from odoo import _, api, fields, models
 class BusSchedule(models.Model):
     _name = 'bus.schedule'
     _description = 'Bus Schedule'
+    _order = 'name desc'
 
     name = fields.Char('')
     schedule = fields.Datetime('')
@@ -13,10 +14,25 @@ class BusSchedule(models.Model):
         ('tf', 'Transfer'),
     ], string='Payment Type')
 
+    capacity = fields.Float(related='bus_id.capacity')
     bus_id = fields.Many2one('res.bus', string='Bus')
     route_id = fields.Many2one('bus.route', string='Route')
     baggage_line_ids = fields.One2many('baggage.baggage', 'schedule_id', string='Baggage_line')
     passanger_ids = fields.Many2many('res.passanger', string='Passanger')
+    state = fields.Selection([
+        ('draft', 'Draft'),
+        ('submit', 'Submitted'),
+        ('run', 'On Going'),
+        ('done', 'Done'),
+    ], string='status', default='draft', copy=False)
+
+    @api.model
+    def create(self, value):
+        value['name'] = self.env['ir.sequence'].next_by_code('bus.schedule')
+        return super(BusSchedule, self).create(value)
+    
+    def button_submit(self):
+        self.state = 'submit'
 
 
     class BaggageBaggage(models.Model):
