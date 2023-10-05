@@ -8,6 +8,7 @@ class  ResBus(models.Model):
     code = fields.Char('')
     image = fields.Binary('')
     capacity = fields.Float('')
+    user_id = fields.Many2one('res.users', string='Responsible')
 
     state = fields.Selection([ 
         ('draft', 'Draft'),

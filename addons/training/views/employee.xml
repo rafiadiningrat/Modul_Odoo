@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+    
+        <record id="view_employee_form_inherit_training" model="ir.ui.view">
+            <field name="name">hr.employee.view.form.training.inherit</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+                <field name="coach_id" position='after'>
+                    <field name="is_driver" />
+                </field>
+                <field name="parent_id" position="attributes">
+                <attribute name="string">Head Driver</attribute>
+            </field>
+            <xpath expr="//notebook/page[@name='public']" position="before">
+                <page name="driver_license" string="Driver License">
+                    <group>
+                        <field name="driver_license" />
+                        <field name="driver_license_exp"/>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+        </record>
+
+        <record id="driver_employee_action" model="ir.actions.act_window">
+            <field name="name">Driver</field>
+            <field name="res_model">hr.employee</field>
+            <field name="view_mode">kanban,tree,form</field>
+            <field name="domain">[('is_driver','=',True)]</field>
+            <field name="context">{'default_is_driver':True}</field>
+        </record>
+    
+    </data>
+    
+
+</odoo>

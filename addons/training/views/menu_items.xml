@@ -20,13 +20,24 @@
         groups=""
         parent="transport_root_menu"
         sequence="2"/>
+     <menuitem
+      id="bus_root_menu"
+      name="Bus"
+      parent="transport_root_menu"
+      sequence="3"/>
       <menuitem
         id="res_bus_menu"
         name="Bus"
         action="res_bus_action"
         groups=""
-        parent="transport_root_menu"
-        sequence="3"/>
+        parent="bus_root_menu"
+        sequence="1"/>
+      <menuitem
+        id="driver_employee_menu"
+        name="Driver"
+        action="driver_employee_action"
+        parent="bus_root_menu"
+        sequence="2"/>
       <menuitem
         id="configuration_route_menu"
         name="Configuration"
