@@ -34,6 +34,15 @@ class BusSchedule(models.Model):
     def button_submit(self):
         self.state = 'submit'
 
+    def button_run(self):
+        self.state = 'run'
+
+    def button_done(self):
+        self.state = 'done'
+
+    def button_draft(self):
+        self.state = 'draft'
+
 
     class BaggageBaggage(models.Model):
         _name = 'baggage.baggage'
