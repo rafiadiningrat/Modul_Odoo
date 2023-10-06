@@ -14,6 +14,12 @@
                 <field name="parent_id" position="attributes">
                 <attribute name="string">Head Driver</attribute>
             </field>
+            <field name="work_email" position='after'>
+                <field name="code_driver" />
+            </field>
+            <field name="parent_id" position="attributes">
+                <attribute name="string">kode_driver</attribute>
+            </field>
             <xpath expr="//notebook/page[@name='public']" position="before">
                 <page name="driver_license" string="Driver License">
                     <group>
@@ -22,7 +28,7 @@
                     </group>
                 </page>
             </xpath>
-        </field>
+            </field>
         </record>
 
         <record id="driver_employee_action" model="ir.actions.act_window">
